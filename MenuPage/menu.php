@@ -9,13 +9,7 @@
     <header>
       <?php require_once("../General/header.php"); ?>
     </header>
-    <p>Estas en el menu </p>
-
-    <form action="../ComandaPage/comanda.php">
-      <input type="submit" value="Finalitza commanda" />      
-    </form>
-
-    <a href="../LandingPage/landing.php"> Torna enrera </a>
+    <h1>Menú</h1>
     <footer>
       <?php require_once("../General/footer.php"); ?>
     </footer>

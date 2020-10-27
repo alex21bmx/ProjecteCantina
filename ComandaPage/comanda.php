@@ -9,8 +9,7 @@
     <header>
       <?php require_once("../General/header.php"); ?>
     </header>
-    <p>Estas en finalitza comanda </p>
-    <a href="../FinalPage/final.php">Realitzar comanda</a>
+    <h1>Tramitació comanda</h1>
     <footer>
       <?php require_once("../General/footer.php"); ?>
     </footer>

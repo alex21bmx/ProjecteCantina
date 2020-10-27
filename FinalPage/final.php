@@ -9,8 +9,7 @@
     <header>
       <?php require_once("../General/header.php"); ?>
     </header>
-    <p>Gracias por su compra </p>
-    <a href="../LandingPage/landing.php"> Torna al principi </a>
+    <h1>Compra Finalitzada</h1>
     <footer>
       <?php require_once("../General/footer.php"); ?>
     </footer>

@@ -1,0 +1,104 @@
+function verificaPagina(){
+    return window.location.pathname.substring(window.location.pathname.lastIndexOf('/')+1);
+}
+
+function endevant(){
+    let pagina = verificaPagina();
+
+    switch(pagina){
+        case "landing.php":
+            //Aqui ha d'anar la verificació del cookie
+            window.location.href = "../MenuPage/menu.php";
+            break;
+
+
+        case "menu.php":
+            //Aqui ha d'anar la verificació d'un article minim per comanda
+            window.location.href = "../ComandaPage/comanda.php";
+            break;
+
+
+        case "comanda.php":
+            //Aqui ha d'anar la verificació de correu i telefon i camps buits
+            window.location.href = "../FinalPage/final.php";
+            //Aqui s'ha de crear el Cookie
+            break;
+    }
+}
+function comprobaBtn(){
+    let pagina = verificaPagina();
+
+    switch(pagina){
+        case "landing.php":
+            btn(">",true,"Veure Menú");
+            btn("<",false);
+            break;
+
+
+        case "menu.php":
+            btn(">",true,"Fer comanda");
+            btn("<",true,"Tornar a Pàgina principal");
+            break;
+
+
+        case "comanda.php":
+            btn(">",true,"Finalitzar comanda");
+            btn("<",true,"Tornar a menú");
+            break;
+
+        case "final.php":
+            btn(">",false);
+            btn("<",true,"Tornar a comanda");
+            break;
+
+
+        case "error.php":
+            btn(">",false);
+            btn("<",true,"Tornar a Pàgina principal");
+            break;
+    }
+}
+
+function enrera(){
+    let pagina = verificaPagina();
+
+    switch(pagina){
+        case "menu.php":
+            window.location.href = "../LandingPage/landing.php";
+            break;
+
+
+        case "comanda.php":
+            window.location.href = "../MenuPage/menu.php";
+            break;
+
+
+        case "final.php":
+            window.location.href = "../ComandaPage/comanda.php";
+            break;
+
+
+        case "error.php":
+            window.location.href = "../LandingPage/landing.php";
+            break;
+    }
+}
+
+function btn (direccio,estat,nom){
+    if(direccio==">"){
+        if(!estat){
+            document.getElementById("btn2").style.display = "none";
+        }else{
+            document.getElementById("btn2").style.display = "inline";
+        }
+        document.getElementById("btn2").value = nom;
+    }else{
+        if(!estat){
+            document.getElementById("btn1").style.display = "none";
+        }else{
+            document.getElementById("btn1").style.display = "inline";
+        }
+        document.getElementById("btn1").value = nom;
+    }
+}
+comprobaBtn();

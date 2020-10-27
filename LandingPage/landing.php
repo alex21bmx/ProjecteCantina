@@ -10,10 +10,6 @@
       <?php require_once("../General/header.php"); ?>
     </header>
     <h1> Cantina Pedralbes </h1>
-
-    <form action="../MenuPage/menu.php">
-      <input type="submit" value="Fer comanda" />
-    </form>
     <footer>
       <?php require_once("../General/footer.php"); ?>
     </footer>
