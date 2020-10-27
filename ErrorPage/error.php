@@ -6,6 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <p>ERROR PAGINA</p>
+    <a href="../LandingPage/landing.php"> Torna al principi </a>
 </body>
 </html>

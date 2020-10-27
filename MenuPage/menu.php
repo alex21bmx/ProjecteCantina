@@ -6,6 +6,12 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <p>Estas en el menu </p>
+
+    <form action="../ComandaPage/comanda.php">
+      <input type="submit" value="Finalitza commanda" />      
+    </form>
+
+    <a href="../LandingPage/landing.php"> Torna enrera </a>
 </body>
 </html>

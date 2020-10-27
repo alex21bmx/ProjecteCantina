@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="headerStyle.css">
 </head>
 <body>
-    <p>Estas en finalitza comanda </p>
-    <a href="../FinalPage/final.php">Realitzar comanda</a>
+<img src="../resources/image/Logo_InsPedralbes_01_transp.png">
 </body>
 </html>
