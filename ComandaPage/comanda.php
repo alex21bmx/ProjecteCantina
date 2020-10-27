@@ -6,7 +6,13 @@
     <title>Document</title>
 </head>
 <body>
+    <header>
+      <?php require_once("../General/header.php"); ?>
+    </header>
     <p>Estas en finalitza comanda </p>
     <a href="../FinalPage/final.php">Realitzar comanda</a>
+    <footer>
+      <?php require_once("../General/footer.php"); ?>
+    </footer>
 </body>
 </html>

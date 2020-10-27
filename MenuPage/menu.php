@@ -6,6 +6,9 @@
     <title>Document</title>
 </head>
 <body>
+    <header>
+      <?php require_once("../General/header.php"); ?>
+    </header>
     <p>Estas en el menu </p>
 
     <form action="../ComandaPage/comanda.php">
@@ -13,5 +16,8 @@
     </form>
 
     <a href="../LandingPage/landing.php"> Torna enrera </a>
+    <footer>
+      <?php require_once("../General/footer.php"); ?>
+    </footer>
 </body>
 </html>
