@@ -1,9 +1,8 @@
 @font-face{
     font-family:Open-sans;
-    src: url("../resources/image/OpenSans-ExtraBold.ttf");
+    src: url("../src/OpenSans.ttf");
 }
 #footer {
-    position: fixed;
     left: 0;
     bottom: 100px;
     width: 100%;
@@ -16,7 +15,7 @@
     border-radius: 100px;
     position: absolute;
     left: 0;
-    bottom: 50px;
+    bottom: 150px;
     width: 200px;
     height:40px;
     outline: none;
@@ -27,7 +26,7 @@
     border-radius: 100px;
     position: absolute;
     right: 0;
-    bottom: 50px;
+    bottom: 150px;
     width: 200px;
     height:40px;
     outline: none;
@@ -35,11 +34,9 @@
 }
 #about{
     border-radius: 100px 100px 0px 0px;
-    position: fixed;
-    left: 0;
+    position: absolute;
     bottom: 0;
     width: 100%;
-    height: 125px;
     font-family: Open-sans;
     text-align: center;
     background-color: grey;

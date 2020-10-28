@@ -8,19 +8,19 @@ function endevant(){
     switch(pagina){
         case "landing.php":
             //Aqui ha d'anar la verificació del cookie
-            window.location.href = "../MenuPage/menu.php";
+            window.location.href = "menu.php";
             break;
 
 
         case "menu.php":
             //Aqui ha d'anar la verificació d'un article minim per comanda
-            window.location.href = "../ComandaPage/comanda.php";
+            window.location.href = "comanda.php";
             break;
 
 
         case "comanda.php":
             //Aqui ha d'anar la verificació de correu i telefon i camps buits
-            window.location.href = "../FinalPage/final.php";
+            window.location.href = "final.php";
             //Aqui s'ha de crear el Cookie
             break;
     }
@@ -64,22 +64,22 @@ function enrera(){
 
     switch(pagina){
         case "menu.php":
-            window.location.href = "../LandingPage/landing.php";
+            window.location.href = "landing.php";
             break;
 
 
         case "comanda.php":
-            window.location.href = "../MenuPage/menu.php";
+            window.location.href = "menu.php";
             break;
 
 
         case "final.php":
-            window.location.href = "../ComandaPage/comanda.php";
+            window.location.href = "comanda.php";
             break;
 
 
         case "error.php":
-            window.location.href = "../LandingPage/landing.php";
+            window.location.href = "landing.php";
             break;
     }
 }

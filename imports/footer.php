@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="../General/footer.css">
+<link rel="stylesheet" href="css/footer.css">
 <div id="footer">
     <div>
         <input type="button" value="<--" id="btn1" onClick="enrera()">
@@ -7,7 +7,7 @@
     <div id="about">
         <table>
             <tr id="FilaApartat">
-                <td class="Apartat"><a href="../ErrorPage/error.php">Avís Legal</a></td>
+                <td class="Apartat"><a href="error.php">Avís Legal</a></td>
                 <td class="Apartat">Sobre Nosaltres</td>
                 <td class="Apartat">Contacte</td>
                 <td class="Apartat">Horaris</td>
@@ -32,8 +32,7 @@
                                         08034 Barcelona</p></td>
             </tr>
         </table>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique eveniet nam blanditiis maiores quaerat nesciunt dicta distinctio quasi quas. Aliquam eius animi alias recusandae dicta eveniet? Numquam culpa est voluptatibus?</p>
     </div>
 </div>
 
-<script src="../General/footer.js"></script>
+<script src="js/footer.js"></script>

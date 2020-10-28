@@ -7,11 +7,11 @@
 </head>
 <body>
     <header>
-      <?php require_once("../General/header.php"); ?>
+      <?php require_once("imports/header.php"); ?>
     </header>
-    <h1>Compra Finalitzada</h1>
+    <h1>Pàgina error</h1>
     <footer>
-      <?php require_once("../General/footer.php"); ?>
+      <?php require_once("imports/footer.php"); ?>
     </footer>
 </body>
 </html>

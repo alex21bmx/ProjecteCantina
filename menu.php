@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carta</title>
-    <link rel="stylesheet" href="menu.css">
-    <script lang="javascript" src="menu.js"></script>
+    <link rel="stylesheet" href="css/menu.css">
+    <script lang="javascript" src="js/menu.js"></script>
 </head>
 <body>
     <header>
-      <?php require_once("../General/header.php"); ?>
+      <?php require_once("imports/header.php"); ?>
     </header>
     <h1>Menú</h1>
     <div id = "pati">
@@ -44,7 +44,7 @@
       </div>
     </div>
     <footer>
-      <?php require_once("../General/footer.php"); ?>
+      <?php require_once("imports/footer.php"); ?>
     </footer>    
 </body>
 <script>

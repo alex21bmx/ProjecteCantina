@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cantina Pedralbes</title>
-    <link rel="stylesheet" href="landing.css">
+    <link rel="stylesheet" href="css/landing.css">
 </head>
 <body>
     <header>
-      <?php require_once("../General/header.php"); ?>
+      <?php require_once("imports/header.php"); ?>
     </header>
     <div class="Background">
       <h1 id="Titol"> Cantina Pedralbes </h1>
+      <footer>
+        <?php require_once("imports/footer.php"); ?>
+      </footer>
     </div>
-    <footer>
-      <?php require_once("../General/footer.php"); ?>
-    </footer>
 </body>
 </html>

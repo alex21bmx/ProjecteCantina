@@ -1,14 +1,16 @@
-img{
-    width: 180px;
-    margin-top: 30px;
-    margin-left: 100;
+#Logo{
+    width: 75px;
+    margin: 15px;
 }
-li{
+.ElementoListaHeader{
     float: left;
     list-style: none;
     padding: 10px;
 }
-li:hover a{
+.ListaHeader{
+    margin-right: 20px;
+}
+.enlaceHeader{
     color: black;
 }
 nav{
@@ -22,5 +24,5 @@ a{
     color: darkblue;
 }
 header{
-    background: aquamarine;
+    background: grey;
 }
