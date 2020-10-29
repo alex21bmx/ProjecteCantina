@@ -48,7 +48,7 @@ function comprobaBtn(){
 
         case "final.php":
             btn(">",false);
-            btn("<",true,"Tornar a comanda");
+            btn("<",true,"Tornar a Pàgina principal");
             break;
 
 
@@ -74,7 +74,7 @@ function enrera(){
 
 
         case "final.php":
-            window.location.href = "comanda.php";
+            window.location.href = "landing.php";
             break;
 
 
