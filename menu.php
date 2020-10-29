@@ -11,51 +11,227 @@
     <header>
       <?php require_once("imports/header.php"); ?>
     </header>
-    <h1>Menú</h1>
-    <div id = "pati">
-      Este es el menú del patio
+    <div class ="fila">
+      <div class="columna">
+        <h1>Tu compra</h1>
+        <p>esto tiene que renderizarse cada vez que añades o quitas un producto</p>    
+        <div id="divTotal">
+          <text> TOTAL:</text>
+          <text id = "total"> 0</text>
+          <button id = "vaciar">Vaciar </button>
+        </div>
+      </div>    
+      <div class = "columna">
+        <div id = "pati">
+          <table class = "tablaMenu">
+            <tr>
+              <th colspan = "3">Carta Pati</th>
+            </tr>
+            <tr>
+              <td>
+                <img class = "menuImg" src = "./src/img/menu_bocadillo_fuet.jpg">
+                <div>Bocadillo Fuet:        
+                  <text class="precio">1.70</text>
+                  </br>
+                  <button class="botonMenos">-</button>
+                  <text class = "cantidad">0</text>
+                  <button class="botonMas">+</button>          
+                </div>
+              </td>
+              <td>
+                <img class = "menuImg" src = "./src/img/menu_bocadillo_queso.jpg">
+                <div>Bocadillo Queso:        
+                  <text class="precio">1.70</text>
+                  </br>
+                  <button class="botonMenos">-</button>
+                  <text class = "cantidad">0</text>
+                  <button class="botonMas">+</button>          
+                </div>
+              </td>
+              <td>
+                <img class = "menuImg" src = "./src/img/menu_bocadillo_chistorra.jpg">
+                <div>Bocadillo Chistorra:        
+                  <text class="precio">2.50</text>
+                  </br>
+                  <button class="botonMenos">-</button>
+                  <text class = "cantidad">0</text>
+                  <button class="botonMas">+</button>        
+                </div>  
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <img class = "menuImg" src = "./src/img/menu_bocadillo_fuet.jpg">
+                <div>Bocadillo Fuet:        
+                  <text class="precio">1.70</text>
+                  </br>
+                  <button class="botonMenos">-</button>
+                  <text class = "cantidad">0</text>
+                  <button class="botonMas">+</button>          
+                </div>
+              </td>
+              <td>
+                <img class = "menuImg" src = "./src/img/menu_bocadillo_queso.jpg">
+                <div>Bocadillo Queso:        
+                  <text class="precio">1.70</text>
+                  </br>
+                  <button class="botonMenos">-</button>
+                  <text class = "cantidad">0</text>
+                  <button class="botonMas">+</button>          
+                </div>
+              </td>
+              <td>
+                <img class = "menuImg" src = "./src/img/menu_bocadillo_chistorra.jpg">
+                <div>Bocadillo Chistorra:        
+                  <text class="precio">2.50</text>
+                  </br>
+                  <button class="botonMenos">-</button>
+                  <text class = "cantidad">0</text>
+                  <button class="botonMas">+</button>        
+                </div>  
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <img class = "menuImg" src = "./src/img/menu_bocadillo_fuet.jpg">
+                <div>Bocadillo Fuet:        
+                  <text class="precio">1.70</text>
+                  </br>
+                  <button class="botonMenos">-</button>
+                  <text class = "cantidad">0</text>
+                  <button class="botonMas">+</button>          
+                </div>
+              </td>
+              <td>
+                <img class = "menuImg" src = "./src/img/menu_bocadillo_queso.jpg">
+                <div>Bocadillo Queso:        
+                  <text class="precio">1.70</text>
+                  </br>
+                  <button class="botonMenos">-</button>
+                  <text class = "cantidad">0</text>
+                  <button class="botonMas">+</button>          
+                </div>
+              </td>
+              <td>
+                <img class = "menuImg" src = "./src/img/menu_bocadillo_chistorra.jpg">
+                <div>Bocadillo Chistorra:        
+                  <text class="precio">2.50</text>
+                  </br>
+                  <button class="botonMenos">-</button>
+                  <text class = "cantidad">0</text>
+                  <button class="botonMas">+</button>        
+                </div>  
+              </td>
+            </tr>
+          </table> 
+        </div>
+        <div id = "migdia">
+          <table class = "tablaMenu">
+            <tr>
+              <th colspan = "3">Carta Migdia</th>
+            </tr>
+            <tr>
+              <td>
+                <img class = "menuImg" src = "./src/img/menu_ensalada.jpg">
+                <div>Amanida:        
+                  <text class="precio">2.70</text>
+                  </br>
+                  <button class="botonMenos">-</button>
+                  <text class = "cantidad">0</text>
+                  <button class="botonMas">+</button>          
+                </div>
+              </td>
+              <td>
+                <img class = "menuImg" src = "./src/img/menu_entrecot.jpg">
+                <div>Entrecot:        
+                  <text class="precio">1.70</text>
+                  </br>
+                  <button class="botonMenos">-</button>
+                  <text class = "cantidad">0</text>
+                  <button class="botonMas">+</button>          
+                </div>
+              </td>
+              <td>
+                <img class = "menuImg" src = "./src/img/menu_natillas.jpg">
+                <div>Natillas:        
+                  <text class="precio">1.50</text>
+                  </br>
+                  <button class="botonMenos">-</button>
+                  <text class = "cantidad">0</text>
+                  <button class="botonMas">+</button>        
+                </div>  
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <img class = "menuImg" src = "./src/img/menu_ensalada.jpg">
+                <div>Ensalada:        
+                  <text class="precio">1.70</text>
+                  </br>
+                  <button class="botonMenos">-</button>
+                  <text class = "cantidad">0</text>
+                  <button class="botonMas">+</button>          
+                </div>
+              </td>
+              <td>
+                <img class = "menuImg" src = "./src/img/menu_entrecot.jpg">
+                <div>Entrecot:        
+                  <text class="precio">1.70</text>
+                  </br>
+                  <button class="botonMenos">-</button>
+                  <text class = "cantidad">0</text>
+                  <button class="botonMas">+</button>          
+                </div>
+              </td>
+              <td>
+                <img class = "menuImg" src = "./src/img/menu_natillas.jpg">
+                <div>Natillas:        
+                  <text class="precio">2.50</text>
+                  </br>
+                  <button class="botonMenos">-</button>
+                  <text class = "cantidad">0</text>
+                  <button class="botonMas">+</button>        
+                </div>  
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <img class = "menuImg" src = "./src/img/menu_ensalada.jpg">
+                <div>Amanida:        
+                  <text class="precio">1.70</text>
+                  </br>
+                  <button class="botonMenos">-</button>
+                  <text class = "cantidad">0</text>
+                  <button class="botonMas">+</button>          
+                </div>
+              </td>
+              <td>
+                <img class = "menuImg" src = "./src/img/menu_entrecot.jpg">
+                <div>Entrecot:        
+                  <text class="precio">1.70</text>
+                  </br>
+                  <button class="botonMenos">-</button>
+                  <text class = "cantidad">0</text>
+                  <button class="botonMas">+</button>          
+                </div>
+              </td>
+              <td>
+                <img class = "menuImg" src = "./src/img/menu_natillas.jpg">
+                <div>Natillas:        
+                  <text class="precio">2.50</text>
+                  </br>
+                  <button class="botonMenos">-</button>
+                  <text class = "cantidad">0</text>
+                  <button class="botonMas">+</button>        
+                </div>  
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
     </div>
-    <div id = "migdia">
-      <h3> Carta Migdia</h3>
-      <div>Bocadillo Fuet:        
-        <text class="precio">1.70</text>
-        <button class="botonMenos">-</button>
-        <text class = "cantidad">0</text>
-        <button class="botonMas">+</button>
-        
-      </div>
-      <div>Bocadillo Queso:        
-        <text class="precio">1.70</text>
-        <button class="botonMenos">-</button>
-        <text class = "cantidad">0</text>
-        <button class="botonMas">+</button>
-        
-      </div>
-      <div>Bocadillo Chistorra:        
-        <text class="precio">2.50</text>
-        <button class="botonMenos">-</button>
-        <text class = "cantidad">0</text>
-        <button class="botonMas">+</button>        
-      </div>      
-      <div>
-        <text> TOTAL:</text>
-        <text id = "total"> 0</text>
-        <button id = "vaciar">Vaciar </button>
-      </div>
-    </div>
-    <footer>
-      <?php require_once("imports/footer.php"); ?>
-    </footer>    
+  <footer>
+    <?php require_once("imports/footer.php"); ?>
+  </footer>    
 </body>
-<script>
-  let botonesMas = document.getElementsByClassName("botonMas");
-  let botonesMenos = document.getElementsByClassName("botonMenos");
-
-  for (let i = 0; i < botonesMas.length; i++) {
-    botonesMas[i].addEventListener("click",function(){botonMas(i)});
-    botonesMenos[i].addEventListener("click",function(){botonMenos(i)});
-  }
-
-  document.getElementById("vaciar").addEventListener("click",vaciarCarrito);
-</script> 
 </html>

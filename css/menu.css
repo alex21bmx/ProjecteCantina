@@ -1,6 +1,25 @@
 #pati{
-    display: none;
+    display: none;  
 }
 #migdia{
-    display: none;
+    display: none;   
+}
+.menuImg{
+    height: 100px;
+    width: 100px;
+}
+body{
+    margin: 0px;
+}
+th{
+    height: 50px;
+}
+.columna{
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+.fila:after{
+    display: table;
+    clear: both;
 }
