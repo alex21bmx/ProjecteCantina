@@ -1,7 +1,14 @@
 {
+    "Id":1,
     "productos":{
         "1":1,
         "3":4
     },
-    "precio":23.95
+    "precio":23.95,
+    "datos":{
+        "Nom":"Kolvin",
+        "Telefono":98988998,
+        "email":"naksnsal@inspedrlabes.cat"
+    },
+    "estado":"para preparar"
 }
