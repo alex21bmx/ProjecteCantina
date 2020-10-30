@@ -243,7 +243,10 @@ img {vertical-align: middle;}
 
 .menuImg{
     height: 100px;
-    width: 100px;
+    width: 100px;    
+}
+td{
+    text-align: center;
 }
 th{
     height: 50px;

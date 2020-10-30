@@ -28,13 +28,15 @@ function menuChooser(){
 }
 function botonMas(i){   
     document.getElementsByClassName("cantidad")[i].innerHTML = ++document.getElementsByClassName("cantidad")[i].textContent;
-    calculaTotal(i,1);     
+    calculaTotal(i,1);  
+    renderizaCarrito(1);   
 }
 function botonMenos(i){
     if( 0 < document.getElementsByClassName("cantidad")[i].textContent){ 
         document.getElementsByClassName("cantidad")[i].innerHTML = --document.getElementsByClassName("cantidad")[i].textContent; 
         calculaTotal(i,0);
-    }    
+        renderizaCarrito(1);
+    }        
 }
 function calculaTotal(posicion,accion){    
     if(accion){
@@ -53,5 +55,27 @@ function vaciarCarrito(){
     }
 
     document.getElementById("total").innerHTML = 0;
+
+    renderizaCarrito(0);
+}
+function renderizaCarrito(accion){
+    if(accion){
+        let cantidades = document.getElementsByClassName("cantidad");
+        let entrada = ""; 
+        for(let i = 0; i < cantidades.length ; i++){
+            if(document.getElementsByClassName("cantidad")[i].textContent != 0){           
+                entrada += "<p id='" + i + "'>" + document.getElementsByClassName("nombre")[i].textContent + "x" + document.getElementsByClassName("cantidad")[i].textContent + "</p>";
+                document.getElementById("carrito").innerHTML = entrada;
+            }
+            else{  
+                if(document.getElementById(i)){
+                    document.getElementById(i).remove();
+                }  
+            }  
+        }        
+    }
+    else{
+        document.getElementById("carrito").innerHTML = "";
+    }          
 }
   
