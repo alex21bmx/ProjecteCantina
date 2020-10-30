@@ -33,9 +33,9 @@ body {
 #btn1{
     font-family: Open-sans;
     border-radius: 100px;
-    position: absolute;
+    position: fixed;
     left: 0;
-    bottom: 60px;
+    bottom: 100px;
     width: 200px;
     height:40px;
     outline: none;
@@ -44,9 +44,9 @@ body {
 #btn2{
     font-family: Open-sans;
     border-radius: 100px;
-    position: absolute;
+    position: fixed;
     right: 0;
-    bottom: 60px;
+    bottom: 100px;
     width: 200px;
     height:40px;
     outline: none;
