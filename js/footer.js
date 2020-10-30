@@ -1,4 +1,4 @@
-function verificaPagina(){
+    function verificaPagina(){
     return window.location.pathname.substring(window.location.pathname.lastIndexOf('/')+1);
 }
 
@@ -14,7 +14,13 @@ function endevant(){
 
         case "menu.php":
             //Aqui ha d'anar la verificació d'un article minim per comanda
-            window.location.href = "comanda.php";
+            if(document.getElementById("total").textContent == 0){
+                alert("HAS DE SELECCIONAR MÍNIM UN ITEM");
+            }
+            else{
+                
+                window.location.href = "comanda.php";
+            }
             break;
 
 
