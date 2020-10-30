@@ -30,7 +30,7 @@
               <td>
                 <img class = "menuImg" src = "./src/img/menu_bocadillo_fuet.jpg">
                 <div>
-                  <text class="nombre">Bocadillo Fuet:</text>        
+                  <text class="nombre">Bocadillo Fuet</text>        
                   <text class="precio">1.70</text>
                   </br>
                   <button class="botonMenos">-</button>
@@ -41,7 +41,7 @@
               <td>
                 <img class = "menuImg" src = "./src/img/menu_bocadillo_queso.jpg">
                 <div>
-                  <text class="nombre">Bocadillo Queso:</text>        
+                  <text class="nombre">Bocadillo Queso</text>        
                   <text class="precio">1.70</text>
                   </br>
                   <button class="botonMenos">-</button>
@@ -52,7 +52,7 @@
               <td>
                 <img class = "menuImg" src = "./src/img/menu_bocadillo_chistorra.jpg">
                 <div>
-                  <text class="nombre">Bocadillo Chistorra:</text>        
+                  <text class="nombre">Bocadillo Chistorra</text>        
                   <text class="precio">2.50</text>
                   </br>
                   <button class="botonMenos">-</button>
@@ -65,7 +65,7 @@
               <td>
                 <img class = "menuImg" src = "./src/img/menu_bocadillo_fuet.jpg">
                 <div>
-                <text class="nombre">Bocadillo Fuet:</text>         
+                <text class="nombre">Bocadillo Fuet</text>         
                   <text class="precio">1.70</text>
                   </br>
                   <button class="botonMenos">-</button>
@@ -76,7 +76,7 @@
               <td>
                 <img class = "menuImg" src = "./src/img/menu_bocadillo_queso.jpg">
                 <div>
-                  <text class="nombre">Bocadillo Queso:</text>                      
+                  <text class="nombre">Bocadillo Queso</text>                      
                   <text class="precio">1.70</text>
                   </br>
                   <button class="botonMenos">-</button>
@@ -87,7 +87,7 @@
               <td>
                 <img class = "menuImg" src = "./src/img/menu_bocadillo_chistorra.jpg">
                 <div>
-                  <text class="nombre">Bocadillo Chistorra:</text>        
+                  <text class="nombre">Bocadillo Chistorra</text>        
                   <text class="precio">2.50</text>
                   </br>
                   <button class="botonMenos">-</button>
@@ -100,7 +100,7 @@
               <td>
                 <img class = "menuImg" src = "./src/img/menu_bocadillo_fuet.jpg">
                 <div>
-                  <text class="nombre">Bocadillo Fuet:</text>         
+                  <text class="nombre">Bocadillo Fuet</text>         
                   <text class="precio">1.70</text>
                   </br>
                   <button class="botonMenos">-</button>
@@ -111,7 +111,7 @@
               <td>
                 <img class = "menuImg" src = "./src/img/menu_bocadillo_queso.jpg">
                 <div>
-                  <text class="nombre">Bocadillo Queso:</text>         
+                  <text class="nombre">Bocadillo Queso</text>         
                   <text class="precio">1.70</text>
                   </br>
                   <button class="botonMenos">-</button>
@@ -122,7 +122,7 @@
               <td>
                 <img class = "menuImg" src = "./src/img/menu_bocadillo_chistorra.jpg">
                 <div>
-                  <text class="nombre">Bocadillo Chistorra:</text>          
+                  <text class="nombre">Bocadillo Chistorra</text>          
                   <text class="precio">2.50</text>
                   </br>
                   <button class="botonMenos">-</button>
@@ -142,7 +142,7 @@
               <td>
                 <img class = "menuImg" src = "./src/img/menu_ensalada.jpg">
                 <div>
-                  <text class="nombre">Amanida:</text>          
+                  <text class="nombre">Amanida</text>          
                   <text class="precio">2.70</text>
                   </br>
                   <button class="botonMenos">-</button>
@@ -153,7 +153,7 @@
               <td>
                 <img class = "menuImg" src = "./src/img/menu_entrecot.jpg">
                 <div>
-                  <text class="nombre">Entrecot:</text>          
+                  <text class="nombre">Entrecot</text>          
                   <text class="precio">1.70</text>
                   </br>
                   <button class="botonMenos">-</button>
@@ -164,7 +164,7 @@
               <td>
                 <img class = "menuImg" src = "./src/img/menu_natillas.jpg">
                 <div>
-                  <text class="nombre">Natillas:</text>                            
+                  <text class="nombre">Natillas</text>                            
                   <text class="precio">1.50</text>
                   </br>
                   <button class="botonMenos">-</button>
@@ -177,7 +177,7 @@
               <td>
                 <img class = "menuImg" src = "./src/img/menu_ensalada.jpg">
                 <div>
-                  <text class="nombre">Amanida:</text>          
+                  <text class="nombre">Amanida</text>          
                   <text class="precio">1.70</text>
                   </br>
                   <button class="botonMenos">-</button>
@@ -188,7 +188,7 @@
               <td>
                 <img class = "menuImg" src = "./src/img/menu_entrecot.jpg">
                 <div>
-                  <text class="nombre">Entecot:</text>        
+                  <text class="nombre">Entecot</text>        
                   <text class="precio">1.70</text>
                   </br>
                   <button class="botonMenos">-</button>
@@ -199,7 +199,7 @@
               <td>
                 <img class = "menuImg" src = "./src/img/menu_natillas.jpg">
                 <div>
-                  <text class="nombre">Natillas:</text>          
+                  <text class="nombre">Natillas</text>          
                   <text class="precio">2.50</text>
                   </br>
                   <button class="botonMenos">-</button>
@@ -212,7 +212,7 @@
               <td>
                 <img class = "menuImg" src = "./src/img/menu_ensalada.jpg">
                 <div>
-                  <text class="nombre">Amanida:</text>          
+                  <text class="nombre">Amanida</text>          
                   <text class="precio">1.70</text>
                   </br>
                   <button class="botonMenos">-</button>
@@ -223,7 +223,7 @@
               <td>
                 <img class = "menuImg" src = "./src/img/menu_entrecot.jpg">
                 <div>
-                  <text class="nombre">Entrecot:</text>         
+                  <text class="nombre">Entrecot</text>         
                   <text class="precio">1.70</text>
                   </br>
                   <button class="botonMenos">-</button>
@@ -234,7 +234,7 @@
               <td>
                 <img class = "menuImg" src = "./src/img/menu_natillas.jpg">
                 <div>
-                  <text class="nombre">Natillas:</text>        
+                  <text class="nombre">Natillas</text>        
                   <text class="precio">2.50</text>
                   </br>
                   <button class="botonMenos">-</button>
