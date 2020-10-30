@@ -1,6 +1,58 @@
     function verificaPagina(){
     return window.location.pathname.substring(window.location.pathname.lastIndexOf('/')+1);
 }
+function UrlExists(url){
+    var http = new XMLHttpRequest();
+    http.open('HEAD', url, false);
+    http.send();
+    return http.status!=404;
+}
+function creaCadenaTxt(){
+    let cadena = "";
+    
+}
+function creaFitxer(){
+    let numeroPedido
+    do{
+        numeroPedido = Math.floor(Math.random() * 100000);    
+    }while(!UrlExists());
+    let fso  = new ActiveXObject("Scripting.FileSystemObject"); 
+    let fh = fso.CreateTextFile("Tiquets/"+numeroPedido+".txt", true); 
+    fh.WriteLine(creaCadenaTxt()); 
+    fh.Close(); 
+}
+function verificaDades(){ 
+    if( document.getElementById("name").value == ""){
+        return false;
+    }
+    if(Number.isInteger(parseInt(document.getElementById("telefon").value))){
+        if(document.getElementById("telefon").value.length!=9){
+            return false;
+        }
+    }else{
+        return false;
+    }
+    if(document.getElementById("email").value.slice(document.getElementById("email").value.length-17,document.getElementById("email").value.length)=="@inspedralbes.cat" && document.getElementById("email").value.length>17){
+        return true;
+    }else{
+        return false;
+    }
+}
+function comrpobaCookie(){
+    let pedido = sessionStorage.getItem("comanda");
+    if(pedido==null){
+        return false;
+    }else{
+        return true;
+    }
+}
+function finalDeComanda(){
+    if(verificaDades() && comrpobaCookie()){
+        creaFitxer();
+    }else{
+        alert("Camps erronis")
+    }
+}
 
 function endevant(){
     let pagina = verificaPagina();
@@ -25,8 +77,9 @@ function endevant(){
 
 
         case "comanda.php":
+            finalDeComanda();
             //Aqui ha d'anar la verificació de correu i telefon i camps buits
-            window.location.href = "final.php";
+            //window.location.href = "final.php";
             //Aqui s'ha de crear el Cookie
             break;
     }
