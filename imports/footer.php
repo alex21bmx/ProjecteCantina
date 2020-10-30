@@ -1,4 +1,3 @@
-<link rel="stylesheet" href="css/footer.css">
 <div id="footer">
     <div>
         <input type="button" value="<--" id="btn1" onClick="enrera()">

@@ -9,7 +9,9 @@
     <header>
       <?php require_once("imports/header.php"); ?>
     </header>
-    <h1>Compra Finalitzada</h1>
+    <div id="content">
+      <h1>Compra finalitzada</h1>
+    </div>
     <footer>
       <?php require_once("imports/footer.php"); ?>
     </footer>

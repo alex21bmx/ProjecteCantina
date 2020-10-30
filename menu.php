@@ -4,14 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carta</title>
-    <link rel="stylesheet" href="css/menu.css">
     <script lang="javascript" src="js/menu.js"></script>
 </head>
 <body>
     <header>
       <?php require_once("imports/header.php"); ?>
     </header>
-    <div class ="fila">
+    <div class ="fila" id="content">
       <div class="columna">
         <h1>Tu compra</h1>
         <p>esto tiene que renderizarse cada vez que añades o quitas un producto</p>    
@@ -229,9 +228,9 @@
           </table>
         </div>
       </div>
-    </div>
-  <footer>
-    <?php require_once("imports/footer.php"); ?>
-  </footer>    
+    </div>   
+    <footer id="footer">
+        <?php require_once("imports/footer.php"); ?>
+    </footer> 
 </body>
 </html>
