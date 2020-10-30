@@ -64,7 +64,7 @@ function renderizaCarrito(accion){
         let entrada = ""; 
         for(let i = 0; i < cantidades.length ; i++){
             if(document.getElementsByClassName("cantidad")[i].textContent != 0){           
-                entrada += "<p id='" + i + "'>" + document.getElementsByClassName("nombre")[i].textContent + "x" + document.getElementsByClassName("cantidad")[i].textContent + "</p>";
+                entrada += "<p position='" + i + "'>" + document.getElementsByClassName("nombre")[i].textContent + " x " + document.getElementsByClassName("cantidad")[i].textContent + "</p>";
                 document.getElementById("carrito").innerHTML = entrada;
             }
             else{  

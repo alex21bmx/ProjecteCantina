@@ -1,6 +1,6 @@
 function obtenirComanda(){
-    let id = getCookie("id");
-    return localStorage.getItem(id);
+    let comanda = getCookie("id");
+    return localStorage.getItem("comanda");
 
 }
 function getCookie(cname) {
@@ -34,7 +34,7 @@ function stringComanda(){
         "estat":"para preparar"
     }
     
-    let productes = json["producte"];
+    let productes = json["mapProductes"];
     let preu = json["preu"];
     let codiFinal = "<form>"
     for (let [key, value] of Object.entries(productes)) {

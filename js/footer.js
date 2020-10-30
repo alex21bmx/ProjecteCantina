@@ -18,7 +18,19 @@ function endevant(){
                 alert("HAS DE SELECCIONAR MÍNIM UN ITEM");
             }
             else{
-                
+                let mapPedido = new Object();
+                let mapProductes = new Object();
+
+                let cantidades = document.getElementsByClassName("cantidad");
+                for(let i = 0 ; i < cantidades.length ; i++){
+                    if(document.getElementsByClassName("cantidad")[i].textContent != 0){
+                        mapProductes[document.getElementsByClassName("nombre")[i].textContent] = document.getElementsByClassName("cantidad")[i];
+                    }
+                }
+                mapPedido["productes"] = mapProductes;
+                mapPedido["preu"] = document.getElementById("total").textContent;
+
+                localStorage.setItem("comanda",mapPedido);
                 window.location.href = "comanda.php";
             }
             break;
