@@ -1,3 +1,12 @@
+function comrpobaCookie(){
+    let pedido = sessionStorage.getItem("comanda");
+    if(pedido==null){
+        window.location.href = "menu.php";
+    }else{
+        window.location.href = "error.php";
+    }
+}
+
 function verificaPagina(){
     return window.location.pathname.substring(window.location.pathname.lastIndexOf('/')+1);
 }
@@ -82,8 +91,8 @@ function endevant(){
 
     switch(pagina){
         case "landing.php":
-            //Aqui ha d'anar la verificació del cookie
-            window.location.href = "menu.php";
+           comrpobaCookie();
+           
             break;
 
 
