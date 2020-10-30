@@ -34,7 +34,7 @@ function stringComanda(){
         "estat":"para preparar"
     }
     
-    let productes = json["mapProductes"];
+    let productes = json["producte"];
     let preu = json["preu"];
     let codiFinal = "<form>"
     for (let [key, value] of Object.entries(productes)) {
