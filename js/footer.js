@@ -8,15 +8,16 @@ function UrlExists(url){
     return http.status!=404;
 }
 function creaCadenaTxt(){
-    let cadena = "";
-    
+    let cadena = "Hola";
+    return cadena;
+
 }
 function creaFitxer(){
     let numeroPedido
     do{
         numeroPedido = Math.floor(Math.random() * 100000);    
-    }while(!UrlExists());
-    let fso  = new ActiveXObject("Scripting.FileSystemObject"); 
+    }while(UrlExists());
+    let fso  = CreateObject("Scripting.FileSystemObject"); 
     let fh = fso.CreateTextFile("Tiquets/"+numeroPedido+".txt", true); 
     fh.WriteLine(creaCadenaTxt()); 
     fh.Close(); 
@@ -47,7 +48,7 @@ function comrpobaCookie(){
     }
 }
 function finalDeComanda(){
-    if(verificaDades() && comrpobaCookie()){
+    if(verificaDades() && !comrpobaCookie()){
         creaFitxer();
     }else{
         alert("Camps erronis")
