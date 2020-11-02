@@ -10,12 +10,6 @@ function comrpobaCookie() {
 function verificaPagina() {
     return window.location.pathname.substring(window.location.pathname.lastIndexOf('/') + 1);
 }
-function UrlExists(url) {
-    var http = new XMLHttpRequest();
-    http.open('HEAD', url, false);
-    http.send();
-    return http.status != 404;
-}
 function creaCadenaTxt() {
     let cadena = "Hola";
     return cadena;
@@ -100,16 +94,13 @@ function endevant() {
 
 
         case "menu.php":
-            //Aqui ha d'anar la verificació d'un article minim per comanda
             enviaComanda();
             break;
 
 
         case "comanda.php":
             finalDeComanda();
-            //Aqui ha d'anar la verificació de correu i telefon i camps buits
-            //window.location.href = "final.php";
-            //Aqui s'ha de crear el Cookie
+            window.location.href = "final.php";
             break;
     }
 }

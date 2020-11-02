@@ -1,6 +1,5 @@
 function stringComanda(){
     let json = JSON.parse(localStorage.getItem("comanda"));
-    alert(json);
     
     let productes = json["productes"];
     let preu = json["preu"];
