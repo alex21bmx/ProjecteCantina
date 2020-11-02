@@ -1,97 +1,101 @@
-function comrpobaCookie(){
+function comrpobaCookie() {
     let pedido = sessionStorage.getItem("comanda");
-    if(pedido==null){
+    if (pedido == null) {
         window.location.href = "menu.php";
-    }else{
+    } else {
         window.location.href = "error.php";
     }
 }
 
-function verificaPagina(){
-    return window.location.pathname.substring(window.location.pathname.lastIndexOf('/')+1);
+function verificaPagina() {
+    return window.location.pathname.substring(window.location.pathname.lastIndexOf('/') + 1);
 }
-function UrlExists(url){
+function UrlExists(url) {
     var http = new XMLHttpRequest();
     http.open('HEAD', url, false);
     http.send();
-    return http.status!=404;
+    return http.status != 404;
 }
-function creaCadenaTxt(){
+function creaCadenaTxt() {
     let cadena = "Hola";
     return cadena;
 
 }
-function creaFitxer(){
-    let numeroPedido
-    do{
-        numeroPedido = Math.floor(Math.random() * 100000);    
-    }while(UrlExists());
-    let fso  = new CreateObject("Scripting.FileSystemObject"); 
-    let fh = fso.CreateTextFile("Tiquets/"+numeroPedido+".txt", true); 
-    fh.WriteLine(creaCadenaTxt()); 
-    fh.Close(); 
+function actualitzaDades() {
+    let json = JSON.parse(localStorage.getItem("comanda"));
+    let mapDades = {};
+    mapDades["Nom"]=document.getElementById("name").textContent;
+    mapDades["Telefon"]=document.getElementById("telefon").textContent;
+    mapDades["Email"]=document.getElementById("email").textContent;
+    json["Dades"]=mapDades;
+    json["Estat"]="Per preparar";
+    localStorage.setItem("comanda", JSON.stringify(json));
 }
-function verificaDades(){ 
-    if( document.getElementById("name").value == ""){
+function verificaDades() {
+    if (document.getElementById("name").value == "") {
         return false;
     }
-    if(Number.isInteger(parseInt(document.getElementById("telefon").value))){
-        if(document.getElementById("telefon").value.length!=9){
+    if (Number.isInteger(parseInt(document.getElementById("telefon").value))) {
+        if (document.getElementById("telefon").value.length != 9) {
             return false;
         }
-        
-    }else{
+
+    } else {
         return false;
     }
-    if(document.getElementById("email").value.slice(document.getElementById("email").value.length-17,document.getElementById("email").value.length)=="@inspedralbes.cat" && document.getElementById("email").value.length>17){
+    if (document.getElementById("email").value.slice(document.getElementById("email").value.length - 17, document.getElementById("email").value.length) == "@inspedralbes.cat" && document.getElementById("email").value.length > 17) {
         return true;
-    }else{
+    } else {
         return false;
     }
 }
-function comrpobaCookie(){
+function comrpobaCookie() {
     let pedido = sessionStorage.getItem("comanda");
-    if(pedido==null){
+    if (pedido == null) {
         return false;
-    }else{
+    } else {
         return true;
     }
 }
-function finalDeComanda(){
-    if(verificaDades() && !comrpobaCookie()){
-        creaFitxer();
-    }else{
+function finalDeComanda() {
+    if (verificaDades() && !comrpobaCookie()) {
+        actualitzaDades();
+    } else {
         alert("Camps erronis")
     }
 }
-function enviaComanda(){
-    if(document.getElementById("total").textContent == 0){
+function enviaComanda() {
+    if (document.getElementById("total").textContent == 0) {
         alert("HAS DE SELECCIONAR MÍNIM UN ITEM");
     }
-    else{
+    else {
         let mapPedido = {};
         let mapProductes = {};
 
         let cantidades = document.getElementsByClassName("cantidad");
-        for(let i = 0 ; i < cantidades.length ; i++){
-            if(document.getElementsByClassName("cantidad")[i].textContent != 0){
+        for (let i = 0; i < cantidades.length; i++) {
+            if (document.getElementsByClassName("cantidad")[i].textContent != 0) {
                 mapProductes[document.getElementsByClassName("nombre")[i].textContent] = document.getElementsByClassName("cantidad")[i].textContent;
             }
         }
         mapPedido["productes"] = mapProductes;
         mapPedido["preu"] = document.getElementById("total").textContent;
 
-        localStorage.setItem("comanda",JSON.stringify(mapPedido));
+        localStorage.setItem("comanda", JSON.stringify(mapPedido));
         window.location.href = "comanda.php";
     }
 }
-function endevant(){
+function endevant() {
     let pagina = verificaPagina();
 
-    switch(pagina){
+    switch (pagina) {
         case "landing.php":
-           comrpobaCookie();
-           
+            if (comrpobaCookie()) {
+                window.location.href = "error.php";
+            } else {
+                window.location.href = "menu.php";
+            }
+
             break;
 
 
@@ -109,44 +113,44 @@ function endevant(){
             break;
     }
 }
-function comprobaBtn(){
+function comprobaBtn() {
     let pagina = verificaPagina();
 
-    switch(pagina){
+    switch (pagina) {
         case "landing.php":
-            btn(">",true,"Veure Menú");
-            btn("<",false);
+            btn(">", true, "Veure Menú");
+            btn("<", false);
             break;
 
 
         case "menu.php":
-            btn(">",true,"Fer comanda");
-            btn("<",true,"Tornar a Pàgina principal");
+            btn(">", true, "Fer comanda");
+            btn("<", true, "Tornar a Pàgina principal");
             break;
 
 
         case "comanda.php":
-            btn(">",true,"Finalitzar comanda");
-            btn("<",true,"Tornar a menú");
+            btn(">", true, "Finalitzar comanda");
+            btn("<", true, "Tornar a menú");
             break;
 
         case "final.php":
-            btn(">",false);
-            btn("<",true,"Tornar a Pàgina principal");
+            btn(">", false);
+            btn("<", true, "Tornar a Pàgina principal");
             break;
 
 
         case "error.php":
-            btn(">",false);
-            btn("<",true,"Tornar a Pàgina principal");
+            btn(">", false);
+            btn("<", true, "Tornar a Pàgina principal");
             break;
     }
 }
 
-function enrera(){
+function enrera() {
     let pagina = verificaPagina();
 
-    switch(pagina){
+    switch (pagina) {
         case "menu.php":
             window.location.href = "landing.php";
             break;
@@ -168,18 +172,18 @@ function enrera(){
     }
 }
 
-function btn (direccio,estat,nom){
-    if(direccio==">"){
-        if(!estat){
+function btn(direccio, estat, nom) {
+    if (direccio == ">") {
+        if (!estat) {
             document.getElementById("btn2").style.display = "none";
-        }else{
+        } else {
             document.getElementById("btn2").style.display = "inline";
         }
         document.getElementById("btn2").value = nom;
-    }else{
-        if(!estat){
+    } else {
+        if (!estat) {
             document.getElementById("btn1").style.display = "none";
-        }else{
+        } else {
             document.getElementById("btn1").style.display = "inline";
         }
         document.getElementById("btn1").value = nom;

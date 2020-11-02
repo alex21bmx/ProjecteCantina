@@ -11,6 +11,16 @@
     </header>
     <div id="content">
       <h1>Compra finalitzada</h1>
+      <?php 
+      if (!isset($_COOKIE["comanda"])){
+        $hora = date("G");
+        $cooldown = 23-intval($hora);
+        $cooldown = $cooldown*3600;
+        setcookie("comanda","True",time()+$cooldown);
+
+        
+      }
+      ?>
     </div>
     <footer>
       <?php require_once("imports/footer.php"); ?>
