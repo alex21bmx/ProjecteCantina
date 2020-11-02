@@ -135,6 +135,10 @@ function comprobaBtn() {
             btn(">", false);
             btn("<", true, "Tornar a Pàgina principal");
             break;
+        case "staff.php":
+            btn(">",false);
+            btn("<",true,"Torna a Pàgina principal");
+            break;
     }
 }
 
@@ -158,6 +162,9 @@ function enrera() {
 
 
         case "error.php":
+            window.location.href = "landing.php";
+            break;
+        case "staff.php":
             window.location.href = "landing.php";
             break;
     }

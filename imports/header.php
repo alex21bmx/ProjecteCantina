@@ -6,7 +6,7 @@
 				<li class="ElementoListaHeader"><a class="enlaceHeader aHeader" href="">Qui som </a></li>
 				<li class="ElementoListaHeader"><a class="enlaceHeader aHeader" href="menu.php">Menú </a></li>
 				<li class="ElementoListaHeader"><a class="enlaceHeader aHeader" href="">Tiquets </a></li>
-				<li class="ElementoListaHeader"><a class="enlaceHeader aHeader" href="">Staff </a></li>
+				<li class="ElementoListaHeader"><a class="enlaceHeader aHeader" href="staff.php">Staff </a></li>
 			</ul>
 		</nav>   
 </div>
