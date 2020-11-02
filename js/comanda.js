@@ -1,7 +1,8 @@
 function stringComanda(){
-    json = localStorage.getItem("comanda");
+    let json = JSON.parse(localStorage.getItem("comanda"));
+    alert(json);
     
-    let productes = json["producte"];
+    let productes = json["productes"];
     let preu = json["preu"];
     let codiFinal = "<form>"
     for (let [key, value] of Object.entries(productes)) {

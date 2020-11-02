@@ -26,7 +26,7 @@ function creaFitxer(){
     do{
         numeroPedido = Math.floor(Math.random() * 100000);    
     }while(UrlExists());
-    let fso  = CreateObject("Scripting.FileSystemObject"); 
+    let fso  = new CreateObject("Scripting.FileSystemObject"); 
     let fh = fso.CreateTextFile("Tiquets/"+numeroPedido+".txt", true); 
     fh.WriteLine(creaCadenaTxt()); 
     fh.Close(); 
@@ -64,28 +64,27 @@ function finalDeComanda(){
         alert("Camps erronis")
     }
 }
-function ferComanda(){
+function enviaComanda(){
     if(document.getElementById("total").textContent == 0){
         alert("HAS DE SELECCIONAR MÍNIM UN ITEM");
     }
     else{
-        let mapPedido = new Object();
-        let mapProductes = new Object();
+        let mapPedido = {};
+        let mapProductes = {};
 
         let cantidades = document.getElementsByClassName("cantidad");
         for(let i = 0 ; i < cantidades.length ; i++){
             if(document.getElementsByClassName("cantidad")[i].textContent != 0){
-                mapProductes[document.getElementsByClassName("nombre")[i].textContent] = document.getElementsByClassName("cantidad")[i];
+                mapProductes[document.getElementsByClassName("nombre")[i].textContent] = document.getElementsByClassName("cantidad")[i].textContent;
             }
         }
         mapPedido["productes"] = mapProductes;
         mapPedido["preu"] = document.getElementById("total").textContent;
 
-        localStorage.setItem("comanda",mapPedido);
+        localStorage.setItem("comanda",JSON.stringify(mapPedido));
         window.location.href = "comanda.php";
     }
 }
-
 function endevant(){
     let pagina = verificaPagina();
 
@@ -98,7 +97,7 @@ function endevant(){
 
         case "menu.php":
             //Aqui ha d'anar la verificació d'un article minim per comanda
-            ferComanda();
+            enviaComanda();
             break;
 
 
