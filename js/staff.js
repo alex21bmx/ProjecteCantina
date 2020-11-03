@@ -1,17 +1,23 @@
 window.onload = function(){
 
-    function verificaCredencials(){
-        if((document.getElementById("user").textContent == "admin") && (document.getElementById("password").textContent == "admin")){
-            alert("Credenciales correctes");
-            console.log("entra");
-        }
-        else{
-            alert("Credencials erronias");
-            console.log("no entra");
-        }
+    function carregaFitxers(){
+        var control = document.getElementById("llista");
+        control.addEventListener("change", function(event) {
+
+    // When the control has changed, there are new files
+
+        var i = 0,
+        files = control.files,
+        len = files.length;
+
+    for (; i < len; i++) {
+        console.log("Filename: " + files[i].name);
+        console.log("Type: " + files[i].type);
+        console.log("Size: " + files[i].size + " bytes");
     }
 
-    //Programa principal
-
-    document.getElementById("submit").addEventListener("click",verificaCredencials);
+}, false);
+    } 
+    
+    carregaFitxers();
 }
