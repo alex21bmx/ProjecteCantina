@@ -17,3 +17,6 @@ function stringComanda(){
 function imprimirComanda(){
     document.getElementById("ComandaPasada").innerHTML = stringComanda();
 }
+function addLocalStorageToForm(){
+    document.getElementById("comanda").setAttribute("value", localStorage.getItem("comanda"));
+}

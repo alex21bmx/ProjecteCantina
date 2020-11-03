@@ -25,6 +25,7 @@ function actualitzaDades() {
     json["Dades"]=mapDades;
     json["Estat"]="Per preparar";
     localStorage.setItem("comanda", JSON.stringify(json));
+    addLocalStorageToForm();
 }
 function verificaDades() {
     if (document.getElementById("name").value == "") {
@@ -101,7 +102,7 @@ function endevant() {
 
         case "comanda.php":
             finalDeComanda();
-            window.location.href = "final.php";
+            document.getElementById("signup").submit();
             break;
     }
 }

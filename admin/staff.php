@@ -12,15 +12,14 @@
         <h1>Llista de comandes</h1>        
         <div id="llista">
             <?php
-                if ($handle = opendir('../Tiquets')) {
+                if ($handle = opendir('../Tiquets')) {  
                     while (false !== ($entry = readdir($handle))) {
-                         if ($entry != "." && $entry != "..") {
+                        if ($entry != "." && $entry != "..") {
                             echo "<a href='../Tiquets/$entry'> $entry <br></a>";
-        }
-    }
-
-    closedir($handle);
-}
+                        }
+                    }
+                    closedir($handle);
+                }
             ?>
         </div>
     </div>

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Comanda</title>
     <script src="js/comanda.js"></script>
 </head>
 <body>
@@ -22,9 +22,9 @@
         </div>  
       </div>
       <div class="columna">
-        <form action="process.html" method="post" name="signup" id="signup">
+        <form action="final.php" method="post" name="signup" id="signup">
                 <fieldset>
-                    <legend>formulari Comanda</legend>
+                    <legend>Formulari Comanda</legend>
                     <div>
                         <label for="name" class="label">Nom</label>
                         <input name="name" type="text" id="name" size="15">
@@ -37,6 +37,7 @@
                         <label for="email" class="label">Email</label>
                         <input name="email" type="text" id="email" size="15">
                     </div>
+                    <input id="comanda" type="hidden" name= "comanda" value="">                  
 
                 </fieldset>
         </form>
@@ -46,5 +47,6 @@
       <?php require_once("imports/footer.php"); ?>
     </footer>
     <script>imprimirComanda();</script>
+    <script>addLocalStorageToForm();</script>
 </body>
 </html>

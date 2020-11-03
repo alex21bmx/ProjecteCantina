@@ -15,11 +15,10 @@
         if (!isset($_COOKIE["comanda"])){
           $hora = date("G");
           $cooldown = 23-intval($hora);
-          $cooldown = $cooldown*3600;
+          $cooldown = $cooldown*3600;          
+
           setcookie("comanda","True",time()+$cooldown);
-          $json = '<script>let json = localStorage.getItem("comanda");
-                    document.writeln(json);
-                    </script>';
+          $json = $_POST["comanda"];          
           do {
             $random = rand(0, 5000);
             $filename = "./Tiquets/".$random.".txt";
