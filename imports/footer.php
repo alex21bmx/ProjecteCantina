@@ -16,8 +16,7 @@
                 <td class="Contingut"></td>
                 <td class="Contingut"><p>Hola sóm la cantina<br>
                                         del Institut Pedralbes<br> 
-                                        desde 1849 i sóm del <br> 
-                                        Barça.</p></td>
+                                        desde 1849.</p></td>
 
                 <td class="Contingut"><p>Correu: <br>
                                      Rubén: a18rubonclop@inspedralbes.cat <br>

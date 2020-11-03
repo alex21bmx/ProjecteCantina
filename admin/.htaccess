@@ -1,0 +1,4 @@
+AuthUserFile /admin/.htpassword
+AuthName "Introduce Credenciales de Administrador"
+AuthType Basic
+Require valid-user

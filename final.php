@@ -22,9 +22,9 @@
                     </script>';
           do {
             $random = rand(0, 5000);
-            $filename = "Tiquets/".$random.".txt";
+            $filename = "./Tiquets/".$random.".txt";
           } while (file_exists($filename));
-          $myfile = fopen($random.".txt", "w") or die("Unable to open file!");
+          $myfile = fopen("./Tiquets/".$random.".txt", "w") or die("Unable to open file!");
           fwrite($myfile, $json);
           fclose($myfile);  
         }
