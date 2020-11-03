@@ -140,6 +140,10 @@ function comprobaBtn() {
             btn(">",false);
             btn("<",true,"Torna a Pàgina principal");
             break;
+        case "avislegal.php":
+            btn(">",false);
+            btn("<",true,"Torna a Pàgina principal");
+            break;
     }
 }
 
@@ -168,6 +172,10 @@ function enrera() {
         case "admin/staff.php":
             window.location.href = "landing.php";
             break;
+        case "avislegal.php":
+            window.location.href = "landing.php";
+
+        break;
     }
 }
 
