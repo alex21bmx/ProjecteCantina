@@ -6,7 +6,7 @@
     <div id="about">
         <table>
             <tr id="FilaApartat">
-                <td class="Apartat"><a href="error.php">Avís Legal</a></td>
+                <td class="Apartat"><a href="avislegal.php">Avís Legal</a></td>
                 <td class="Apartat">Sobre Nosaltres</td>
                 <td class="Apartat">Contacte</td>
                 <td class="Apartat">Horaris</td>
