@@ -18,9 +18,10 @@ function creaCadenaTxt() {
 function actualitzaDades() {
     let json = JSON.parse(localStorage.getItem("comanda"));
     let mapDades = {};
-    mapDades["Nom"]=document.getElementById("name").textContent;
-    mapDades["Telefon"]=document.getElementById("telefon").textContent;
-    mapDades["Email"]=document.getElementById("email").textContent;
+
+    mapDades["Nom"]=document.getElementById("name").value;
+    mapDades["Telefon"]=document.getElementById("telefon").value;
+    mapDades["Email"]=document.getElementById("email").value;
     json["Dades"]=mapDades;
     json["Estat"]="Per preparar";
     localStorage.setItem("comanda", JSON.stringify(json));

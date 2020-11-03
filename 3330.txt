@@ -1,0 +1,3 @@
+<script>let json = localStorage.getItem("comanda");
+                    document.writeln(json);
+                    </script>

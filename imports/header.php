@@ -1,4 +1,5 @@
 <link rel="stylesheet" href="css/estils.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
 <div>
 	<img src="src/img/Logo.png" id="Logo">
 		<nav id="navheader">

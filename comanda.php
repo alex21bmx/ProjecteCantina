@@ -7,6 +7,11 @@
     <script src="js/comanda.js"></script>
 </head>
 <body>
+    <?php 
+      if (isset($_COOKIE["comanda"])){
+        header('Location: error.php');
+      }
+    ?>
     <header>
       <?php require_once("imports/header.php"); ?>
     </header>
