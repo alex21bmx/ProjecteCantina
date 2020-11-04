@@ -32,7 +32,7 @@
             $subject ="La teva comanda";
             $txt =$_POST["comanda"];
             $txt = wordwrap($txt,70);
-             MediaList($to,$subject,$txt);
+            mail($to,$subject,$txt);
       
         }
       ?>

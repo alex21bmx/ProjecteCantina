@@ -21,7 +21,7 @@
                 <li>NIF: 000000000#</li>
                 <li>Domicilio:Avenida Esplugas,35-42  08034 Barcelona</li>
                 <li>Domicilio:</li>
-                <li>Sitio Web:labs.iam.cat/~a18rubonclop/Cantina/Landinpage</li>
+                <li>Sitio Web:labs.iam.cat/~a18rubonclop/Cantina/landing.php</li>
             </ol>
             <br></br>
             <h2>Finalidad</h2>

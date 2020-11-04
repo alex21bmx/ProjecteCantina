@@ -1,5 +1,5 @@
 AuthType Basic
 AuthName "Introduce Credenciales de Administrador"
 AuthBasicProvider file
-AuthUserFile "/home/a18rubonclop/public_html/Cantina/admin/.htpasswd"
+AuthUserFile /home/a18rubonclop/public_html/Cantina/admin/.htpasswd
 Require valid-user
