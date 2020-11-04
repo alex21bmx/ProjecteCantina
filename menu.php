@@ -237,7 +237,7 @@
                 </div>
               </td>
               <td>
-                <img class = "menuImg" src = "./src/img/menu_fruita.jpg">
+                <img class = "menuImg" src = "./src/img/menu_fruta.jpg">
                 <div>
                   <text class="nombre">Fruita</text>        
                   <text class="precio">0.65</text>
