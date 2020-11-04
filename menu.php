@@ -135,6 +135,17 @@
                   <button class="botonMas">+</button>        
                 </div>  
               </td>
+              <td>
+                <img class = "menuImg" src = "./src/img/esmorzar_naranja.jpg">
+                <div>
+                  <text class="nombre">Suc de taronja</text>        
+                  <text class="precio">1.80</text>
+                  </br>
+                  <button class="botonMenos">-</button>
+                  <text class = "cantidad">0</text>
+                  <button class="botonMas">+</button>          
+                </div>
+              </td>
             </tr>
           </table> 
         </div>
@@ -246,6 +257,17 @@
                   <text class = "cantidad">0</text>
                   <button class="botonMas">+</button>        
                 </div>  
+              </td>
+              <td>
+                <img class = "menuImg" src = "./src/img/menu_leon.jpg">
+                <div>
+                  <text class="nombre">León come gambas</text>          
+                  <text class="precio">7.50</text>
+                  </br>
+                  <button class="botonMenos">-</button>
+                  <text class = "cantidad">0</text>
+                  <button class="botonMas">+</button>          
+                </div>
               </td>
             </tr>
           </table>
