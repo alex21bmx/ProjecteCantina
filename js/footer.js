@@ -57,12 +57,20 @@ function finalDeComanda() {
     if (verificaDades() && !comrpobaCookie()) {
         actualitzaDades();
     } else {
-        alert("Camps erronis")
+        Swal.fire(
+            'Error en els camps del formulari',
+            'Introduir nom, telefon de 9 xifres i un mail amb domini @inspedralbes.cat',
+            'error'
+          )
     }
 }
 function enviaComanda() {
     if (document.getElementById("total").textContent == 0) {
-        alert("HAS DE SELECCIONAR MÍNIM UN ITEM");
+        Swal.fire(
+            'Cap producte escollit',
+            'Has de seleccionar mínim un producte',
+            'error'
+          )
     }
     else {
         let mapPedido = {};

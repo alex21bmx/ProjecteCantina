@@ -65,6 +65,7 @@ body {
     padding-top: 20px;
     padding-right: 100px;
     padding-left: 100px;
+    margin-top: 10px;
 }
 .Contingut{
     font-size: 11px;
@@ -79,13 +80,15 @@ body {
 .ElementoListaHeader{
     float: left;
     list-style: none;
-    padding: 10px;
+        padding: 10px;
+     
 }
 .ListaHeader{
-    margin-right: 20px;
+    margin-right: 20px;    
 }
-.enlaceHeader{
+.enlaceHeader aHeader{
     color: black;
+    border-style: solid;   
 }
 #navheader{
     float: right;
@@ -103,6 +106,15 @@ header{
 }
 
 /*Landing*/
+
+.NomCantina{
+    font-size: 50px;
+    font-family: Open-sans;    
+    color: black;
+    text-align: center;
+    background-color:  lightgrey;
+    border: 10px,solid,black;
+}
 
 .Background{
         /* The image used */
@@ -240,7 +252,9 @@ img {vertical-align: middle;}
 #migdia{
     display: none;   
 }
+#divTotal{
 
+}
 .menuImg{
     height: 100px;
     width: 100px;    
