@@ -10,6 +10,7 @@
       <?php require_once("imports/header.php"); ?>
     </header>
     <div class="Background" id="content">
+      <div class= "NomCantina">Cantina Pedralbes</div>
       <h2 id="Titol">Destacats</h2>
             <!-- Slideshow container -->
       <div class="slideshow-container">
