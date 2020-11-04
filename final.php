@@ -25,7 +25,16 @@
           } while (file_exists($filename));
           $myfile = fopen("./Tiquets/".$random.".txt", "w") or die("Unable to open file!");
           fwrite($myfile, $json);
-          fclose($myfile);  
+          fclose($myfile); 
+
+          // Enviar mail
+            $to= $_POST["email"] ;
+            $subject ="La teva comanda";
+            $txt =$_POST["comanda"];
+            $txt = wordwrap($txt,70);
+            mail($to,$subject,$txt);
+
+      
         }
       ?>
     </div>
