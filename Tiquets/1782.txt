@@ -1,0 +1,1 @@
+{"productes":{"Amanida":"3","Tallarines":"4","Shusi":"3","Truita de granja":"3","Fruita":"3"},"preu":"102.15","Dades":{"Nom":"\u00c0lex P\u00e9rez Fern\u00e1ndez","Telefon":"630750680","Email":"alex21bmx@inspedralbes.cat"},"Estat":"Per fer"}

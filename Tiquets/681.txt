@@ -1,0 +1,1 @@
+{"productes":{"Amanida":"4","Natillas":"5","Shusi":"5"},"preu":"82.30","Dades":{"Nom":"\u00c0lex P\u00e9rez Fern\u00e1ndez","Telefon":"630750680","Email":"alex21bmx@inspedralbes.cat"},"Estat":"Per fer"}

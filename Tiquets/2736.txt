@@ -1,1 +1,0 @@
-{"productes":{"Natillas":"1"},"preu":"2.50"}

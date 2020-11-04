@@ -1,1 +1,1 @@
-{"productes":{"Bocadillo Queso":"3"},"preu":"5.10","Dades":{"Nom":"Ruben","Telefon":"722177709","Email":"a18rubonclop@inspedralbes.cat"},"Estat":"Per preparar"}
+{"productes":{"Bocadillo Queso":"3"},"preu":"5.10","Dades":{"Nom":"Ruben","Telefon":"722177709","Email":"a18rubonclop@inspedralbes.cat"},"Estat":"Per fer"}

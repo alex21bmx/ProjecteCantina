@@ -30,11 +30,15 @@
           // Enviar mail
             $to= $_POST["email"] ;
             $subject ="La teva comanda";
-            $txt =$_POST["comanda"];
+            $json = json_decode($_POST["comanda"],true);
+            $txt = "Estimat client, la seva comanda s'ha tramitat correctament\r\nComanda:\r\n";
+            foreach ($json['productes'] as $key => $value) {
+              $txt.="-".$key." quantitat:".$value."\r\n";
+            }
+            $txt.="Preu: ".$json['preu'];
+            echo $txt;
             $txt = wordwrap($txt,70);
-            mail($to,$subject,$txt);
-
-      
+            mail($to,$subject,$txt);      
         }
       ?>
     </div>
