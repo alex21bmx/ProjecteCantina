@@ -33,6 +33,7 @@
             $txt =$_POST["comanda"];
             $txt = wordwrap($txt,70);
             mail($to,$subject,$txt);
+
       
         }
       ?>
