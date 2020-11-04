@@ -68,10 +68,10 @@
             </tr>
             <tr>
               <td>
-                <img class = "menuImg" src = "./src/img/menu_bocadillo_fuet.jpg">
+                <img class = "menuImg" src = "./src/img/esmorzar_torrada.jpg">
                 <div>
-                <text class="nombre">Bocadillo Fuet</text>         
-                  <text class="precio">1.70</text>
+                <text class="nombre">Torrades</text>         
+                  <text class="precio">0.90</text>
                   </br>
                   <button class="botonMenos">-</button>
                   <text class = "cantidad">0</text>
@@ -79,10 +79,10 @@
                 </div>
               </td>
               <td>
-                <img class = "menuImg" src = "./src/img/menu_bocadillo_queso.jpg">
+                <img class = "menuImg" src = "./src/img/esmorzar_pancakes.jpg">
                 <div>
-                  <text class="nombre">Bocadillo Queso</text>                      
-                  <text class="precio">1.70</text>
+                  <text class="nombre">Pancakes</text>                      
+                  <text class="precio">1.10</text>
                   </br>
                   <button class="botonMenos">-</button>
                   <text class = "cantidad">0</text>
@@ -90,10 +90,10 @@
                 </div>
               </td>
               <td>
-                <img class = "menuImg" src = "./src/img/menu_bocadillo_chistorra.jpg">
+                <img class = "menuImg" src = "./src/img/esmorzar_donutxoco.jpg">
                 <div>
-                  <text class="nombre">Bocadillo Chistorra</text>        
-                  <text class="precio">2.50</text>
+                  <text class="nombre">Donut</text>        
+                  <text class="precio">0.90</text>
                   </br>
                   <button class="botonMenos">-</button>
                   <text class = "cantidad">0</text>
@@ -103,9 +103,9 @@
             </tr>
             <tr>
               <td>
-                <img class = "menuImg" src = "./src/img/menu_bocadillo_fuet.jpg">
+                <img class = "menuImg" src = "./src/img/esmorzar_cafe.jpg">
                 <div>
-                  <text class="nombre">Bocadillo Fuet</text>         
+                  <text class="nombre">Café</text>         
                   <text class="precio">1.70</text>
                   </br>
                   <button class="botonMenos">-</button>
@@ -114,26 +114,15 @@
                 </div>
               </td>
               <td>
-                <img class = "menuImg" src = "./src/img/menu_bocadillo_queso.jpg">
+                <img class = "menuImg" src = "./src/img/esmorzar_te.jpg">
                 <div>
-                  <text class="nombre">Bocadillo Queso</text>         
+                  <text class="nombre">Te</text>         
                   <text class="precio">1.70</text>
                   </br>
                   <button class="botonMenos">-</button>
                   <text class = "cantidad">0</text>
                   <button class="botonMas">+</button>          
                 </div>
-              </td>
-              <td>
-                <img class = "menuImg" src = "./src/img/menu_bocadillo_chistorra.jpg">
-                <div>
-                  <text class="nombre">Bocadillo Chistorra</text>          
-                  <text class="precio">2.50</text>
-                  </br>
-                  <button class="botonMenos">-</button>
-                  <text class = "cantidad">0</text>
-                  <button class="botonMas">+</button>        
-                </div>  
               </td>
               <td>
                 <img class = "menuImg" src = "./src/img/esmorzar_naranja.jpg">
@@ -191,10 +180,21 @@
             </tr>
             <tr>
               <td>
-                <img class = "menuImg" src = "./src/img/menu_ensalada.jpg">
+                <img class = "menuImg" src = "./src/img/menu_tallarines.jpg">
                 <div>
-                  <text class="nombre">Amanida</text>          
-                  <text class="precio">1.70</text>
+                  <text class="nombre">Tallarines</text>          
+                  <text class="precio">7.50</text>
+                  </br>
+                  <button class="botonMenos">-</button>
+                  <text class = "cantidad">0</text>
+                  <button class="botonMas">+</button>          
+                </div>
+              </td>         
+              <td>
+                <img class = "menuImg" src = "./src/img/menu_sushi.jpg">
+                <div>
+                  <text class="nombre">Shusi</text>          
+                  <text class="precio">12.80</text>
                   </br>
                   <button class="botonMenos">-</button>
                   <text class = "cantidad">0</text>
@@ -202,21 +202,10 @@
                 </div>
               </td>
               <td>
-                <img class = "menuImg" src = "./src/img/menu_entrecot.jpg">
+                <img class = "menuImg" src = "./src/img/menu_tiramisú.jpg">
                 <div>
-                  <text class="nombre">Entecot</text>        
-                  <text class="precio">1.70</text>
-                  </br>
-                  <button class="botonMenos">-</button>
-                  <text class = "cantidad">0</text>
-                  <button class="botonMas">+</button>          
-                </div>
-              </td>
-              <td>
-                <img class = "menuImg" src = "./src/img/menu_natillas.jpg">
-                <div>
-                  <text class="nombre">Natillas</text>          
-                  <text class="precio">2.50</text>
+                  <text class="nombre">Tiramisú</text>          
+                  <text class="precio">4.50</text>
                   </br>
                   <button class="botonMenos">-</button>
                   <text class = "cantidad">0</text>
@@ -225,40 +214,7 @@
               </td>
             </tr>
             <tr>
-              <td>
-                <img class = "menuImg" src = "./src/img/menu_ensalada.jpg">
-                <div>
-                  <text class="nombre">Amanida</text>          
-                  <text class="precio">1.70</text>
-                  </br>
-                  <button class="botonMenos">-</button>
-                  <text class = "cantidad">0</text>
-                  <button class="botonMas">+</button>          
-                </div>
-              </td>
-              <td>
-                <img class = "menuImg" src = "./src/img/menu_entrecot.jpg">
-                <div>
-                  <text class="nombre">Entrecot</text>         
-                  <text class="precio">1.70</text>
-                  </br>
-                  <button class="botonMenos">-</button>
-                  <text class = "cantidad">0</text>
-                  <button class="botonMas">+</button>          
-                </div>
-              </td>
-              <td>
-                <img class = "menuImg" src = "./src/img/menu_natillas.jpg">
-                <div>
-                  <text class="nombre">Natillas</text>        
-                  <text class="precio">2.50</text>
-                  </br>
-                  <button class="botonMenos">-</button>
-                  <text class = "cantidad">0</text>
-                  <button class="botonMas">+</button>        
-                </div>  
-              </td>
-              <td>
+            <td>
                 <img class = "menuImg" src = "./src/img/menu_leon.jpg">
                 <div>
                   <text class="nombre">León come gambas</text>          
@@ -269,6 +225,31 @@
                   <button class="botonMas">+</button>          
                 </div>
               </td>
+              <td>
+                <img class = "menuImg" src = "./src/img/menu_trucha.jpg">
+                <div>
+                  <text class="nombre">Truita de granja</text>         
+                  <text class="precio">7.90</text>
+                  </br>
+                  <button class="botonMenos">-</button>
+                  <text class = "cantidad">0</text>
+                  <button class="botonMas">+</button>          
+                </div>
+              </td>
+              <td>
+                <img class = "menuImg" src = "./src/img/menu_fruita.jpg">
+                <div>
+                  <text class="nombre">Fruita</text>        
+                  <text class="precio">0.65</text>
+                  </br>
+                  <button class="botonMenos">-</button>
+                  <text class = "cantidad">0</text>
+                  <button class="botonMas">+</button>        
+                </div>  
+              </td>
+           
+              
+             
             </tr>
           </table>
         </div>
