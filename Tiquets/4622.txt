@@ -1,1 +1,0 @@
-{"productes":{"Bocadillo Fuet":"3","Bocadillo Queso":"2","Bocadillo Chistorra":"1"},"preu":"11.00","Dades":{"Nom":"Ruben","Telefon":"722177709","Email":"a18rubonclop@inspedralbes.cat","Intolerancias":"No tolero a l'alex","Extras":"#Humor"},"Estat":"Per preparar"}
