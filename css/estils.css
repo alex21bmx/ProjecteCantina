@@ -252,15 +252,14 @@ img {vertical-align: middle;}
 #migdia{
     display: none;   
 }
-#divTotal{
-
-}
 .menuImg{
-    height: 100px;
-    width: 100px;    
+    height: 150px;
+    width: 150px;    
 }
-td{
+.tdMenu{
     text-align: center;
+    height: 300px;
+    width: 300px;   
 }
 th{
     height: 50px;

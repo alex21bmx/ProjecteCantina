@@ -32,7 +32,7 @@
               <th colspan = "3">Carta Pati</th>
             </tr>
             <tr>
-              <td>
+              <td class="tdMenu">
                 <img class = "menuImg" src = "./src/img/menu_bocadillo_fuet.jpg">
                 <div>
                   <text class="nombre">Bocadillo Fuet</text>        
@@ -43,7 +43,7 @@
                   <button class="botonMas">+</button>          
                 </div>
               </td>
-              <td>
+              <td class="tdMenu">
                 <img class = "menuImg" src = "./src/img/menu_bocadillo_queso.jpg">
                 <div>
                   <text class="nombre">Bocadillo Queso</text>        
@@ -54,7 +54,7 @@
                   <button class="botonMas">+</button>          
                 </div>
               </td>
-              <td>
+              <td class="tdMenu">
                 <img class = "menuImg" src = "./src/img/menu_bocadillo_chistorra.jpg">
                 <div>
                   <text class="nombre">Bocadillo Chistorra</text>        
@@ -67,7 +67,7 @@
               </td>
             </tr>
             <tr>
-              <td>
+              <td class="tdMenu">
                 <img class = "menuImg" src = "./src/img/esmorzar_torrada.jpg">
                 <div>
                 <text class="nombre">Torrades</text>         
@@ -78,7 +78,7 @@
                   <button class="botonMas">+</button>          
                 </div>
               </td>
-              <td>
+              <td class="tdMenu">
                 <img class = "menuImg" src = "./src/img/esmorzar_pancakes.jpg">
                 <div>
                   <text class="nombre">Pancakes</text>                      
@@ -89,7 +89,7 @@
                   <button class="botonMas">+</button>          
                 </div>
               </td>
-              <td>
+              <td class="tdMenu">
                 <img class = "menuImg" src = "./src/img/esmorzar_donutxoco.jpg">
                 <div>
                   <text class="nombre">Donut</text>        
@@ -102,7 +102,7 @@
               </td>
             </tr>
             <tr>
-              <td>
+              <td class="tdMenu">
                 <img class = "menuImg" src = "./src/img/esmorzar_cafe.jpg">
                 <div>
                   <text class="nombre">Café</text>         
@@ -113,7 +113,7 @@
                   <button class="botonMas">+</button>          
                 </div>
               </td>
-              <td>
+              <td class="tdMenu">
                 <img class = "menuImg" src = "./src/img/esmorzar_te.jpg">
                 <div>
                   <text class="nombre">Te</text>         
@@ -124,7 +124,7 @@
                   <button class="botonMas">+</button>          
                 </div>
               </td>
-              <td>
+              <td class="tdMenu">
                 <img class = "menuImg" src = "./src/img/esmorzar_naranja.jpg">
                 <div>
                   <text class="nombre">Suc de taronja</text>        
@@ -144,7 +144,7 @@
               <th colspan = "3">Carta Migdia</th>
             </tr>
             <tr>
-              <td>
+              <td class="tdMenu"> 
                 <img class = "menuImg" src = "./src/img/menu_ensalada.jpg">
                 <div>
                   <text class="nombre">Amanida</text>          
@@ -155,7 +155,7 @@
                   <button class="botonMas">+</button>          
                 </div>
               </td>
-              <td>
+              <td class="tdMenu">
                 <img class = "menuImg" src = "./src/img/menu_entrecot.jpg">
                 <div>
                   <text class="nombre">Entrecot</text>          
@@ -166,7 +166,7 @@
                   <button class="botonMas">+</button>          
                 </div>
               </td>
-              <td>
+              <td class="tdMenu">
                 <img class = "menuImg" src = "./src/img/menu_natillas.jpg">
                 <div>
                   <text class="nombre">Natillas</text>                            
@@ -179,7 +179,7 @@
               </td>
             </tr>
             <tr>
-              <td>
+              <td class="tdMenu">
                 <img class = "menuImg" src = "./src/img/menu_tallarines.jpg">
                 <div>
                   <text class="nombre">Tallarines</text>          
@@ -190,7 +190,7 @@
                   <button class="botonMas">+</button>          
                 </div>
               </td>         
-              <td>
+              <td class="tdMenu">
                 <img class = "menuImg" src = "./src/img/menu_sushi.jpg">
                 <div>
                   <text class="nombre">Shusi</text>          
@@ -201,7 +201,7 @@
                   <button class="botonMas">+</button>          
                 </div>
               </td>
-              <td>
+              <td class="tdMenu">
                 <img class = "menuImg" src = "./src/img/menu_tiramisú.jpg">
                 <div>
                   <text class="nombre">Tiramisú</text>          
@@ -214,7 +214,7 @@
               </td>
             </tr>
             <tr>
-            <td>
+            <td class="tdMenu">
                 <img class = "menuImg" src = "./src/img/menu_leon.jpg">
                 <div>
                   <text class="nombre">León come gambas</text>          
@@ -225,7 +225,7 @@
                   <button class="botonMas">+</button>          
                 </div>
               </td>
-              <td>
+              <td class="tdMenu">
                 <img class = "menuImg" src = "./src/img/menu_trucha.jpg">
                 <div>
                   <text class="nombre">Truita de granja</text>         
@@ -236,7 +236,7 @@
                   <button class="botonMas">+</button>          
                 </div>
               </td>
-              <td>
+              <td class="tdMenu">
                 <img class = "menuImg" src = "./src/img/menu_fruta.jpg">
                 <div>
                   <text class="nombre">Fruita</text>        
@@ -246,10 +246,7 @@
                   <text class = "cantidad">0</text>
                   <button class="botonMas">+</button>        
                 </div>  
-              </td>
-           
-              
-             
+              </td>            
             </tr>
           </table>
         </div>
