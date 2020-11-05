@@ -301,5 +301,61 @@ th{
     display: table;
     clear: both;
 }
+/*error style */
+.bodyerror {
+    background-color: #a8e9ff;
+  }
+  
+  .mainboxerror {
+    background-color: #a8e9ff;
+    margin: auto;
+    height: 600px;
+    width: 600px;
+    position: relative;
+  }
+  
+    .err {
+      color: #ffffff;
+      font-family: 'Nunito Sans', sans-serif;
+      font-size: 11rem;
+      position:absolute;
+      right:  50%;
+      top: 8%;
+    }
+  
+  .far {
+    position: absolute;
+    font-size: 8.5rem;
+    left: 50%;
+    top: 15%;
+    color: #ffffff;
+  }
 
-/* Comanda.php*/
+  
+   .err2 {
+      color: #ffffff;
+      font-family: 'Nunito Sans', sans-serif;
+      font-size: 11rem;
+      position:absolute;
+      left: 75%;
+      top: 8%;
+    }
+  
+  .msgerror {
+      text-align: center;
+      font-family: 'Nunito Sans', sans-serif;
+      font-size: 1.6rem;
+      position:absolute;
+      left: 16%;
+      top: 45%;
+      width: 75%;
+    }
+  
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
