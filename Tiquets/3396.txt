@@ -1,0 +1,1 @@
+{"productes":{"Amanida":"4"},"preu":"10.80","Dades":{"Nom":"Àlex Pérez Fernández","Telefon":"630750680","Email":"alex21bmx@inspedralbes.cat","Intolerancias":"","Extras":""},"Estat":"Per preparar"}

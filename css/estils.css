@@ -115,6 +115,59 @@ header{
     background-color:  #52d4ff;
 }
 
+/*Staff*/
+#titolStaff{
+  text-align: center;
+  font-size: 80px;
+  margin: 0;
+}
+.formStaff{
+  text-align: center;
+  vertical-align: bottom;
+}
+.btnStaff{
+  font-family: Open-sans;
+  border-radius: 100px;
+  padding: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: none;
+  background: none;
+  outline: none;
+  height: 30px;
+  width: 200px;
+  background-color: #52d4ff;
+  vertical-align: bottom;
+}
+.inner{                  
+  position: absolute;
+  bottom: 0px;  
+  margin-left: 55px;
+}
+.outer{
+  height: 100%;
+}
+#taulaStaff{
+  margin: 0 auto;
+  border-spacing: 15px 15px;
+}
+.trStaff{
+  background-color: white;
+}
+.tdStaff{
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 0;
+  vertical-align: top;
+  position: relative;
+}
+.contingutStaff{
+  vertical-align: top;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 50px;
+  width: 290px;
+}
 /*Landing*/
 
 .NomCantina{

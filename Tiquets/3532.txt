@@ -1,0 +1,1 @@
+{"productes":{"Amanida":"4","Entrecot":"5","Natillas":"4","Tallarines":"3","Shusi":"4","Tiramisú":"4","Truita de granja":"4","Fruita":"10"},"preu":"155.10","Dades":{"Nom":"Àlex Pérez Fernández","Telefon":"630750680","Email":"alex21bmx@inspedralbes.cat","Intolerancias":"","Extras":""},"Estat":"Per preparar"}
