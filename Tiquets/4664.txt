@@ -1,0 +1,1 @@
+{"productes":{"Pancakes":"2"},"preu":"2.20","Dades":{"Nom":"Àlex","Telefon":"999999999","Email":"a18aleperfer@inspedralbes.cat","Intolerancias":"asdasd","Extras":"dasdasd"},"Estat":"Per preparar"}
