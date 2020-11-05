@@ -22,6 +22,8 @@ function actualitzaDades() {
     mapDades["Nom"]=document.getElementById("name").value;
     mapDades["Telefon"]=document.getElementById("telefon").value;
     mapDades["Email"]=document.getElementById("email").value;
+    mapDades["Intolerancias"]=document.getElementById("intolerancies").value;
+    mapDades["Extras"]=document.getElementById("extres").value;
     json["Dades"]=mapDades;
     json["Estat"]="Per preparar";
     localStorage.setItem("comanda", JSON.stringify(json));
@@ -56,6 +58,7 @@ function comrpobaCookie() {
 function finalDeComanda() {
     if (verificaDades() && !comrpobaCookie()) {
         actualitzaDades();
+        document.getElementById("signup").submit();
     } else {
         Swal.fire(
             'Error en els camps del formulari',
@@ -110,7 +113,6 @@ function endevant() {
 
         case "comanda.php":
             finalDeComanda();
-            document.getElementById("signup").submit();
             break;
     }
 }

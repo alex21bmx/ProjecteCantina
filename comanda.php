@@ -39,11 +39,11 @@
                     </div>
                     <div>
                         <label for="extres">Intoleràncias</label>
-                        <textarea name="intolerancies" id="intolerancies" for="intolerancies" placeholder="Descriu les teves intoleràncies" maxlength="300"></textarea>
+                        <input class="addicional" rows="3" name="intolerancies" id="intolerancies" for="intolerancies" placeholder="Descriu les teves intoleràncies" ></input>
                     </div>
                     <div>
                         <label for="extres">Extres</label>
-                        <textarea name="extres" for="extres" id="extres" placeholder="Descriu els extres pels entrepans" maxlength="300"></textarea>
+                        <input class="addicional" name="extres" for="extres" id="extres" placeholder="Descriu els extres pels entrepans" ></input>
                     </div>
 
                     <input id="comanda" type="hidden" name= "comanda" value="">  

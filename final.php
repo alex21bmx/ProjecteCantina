@@ -36,7 +36,6 @@
               $txt.="-".$key." quantitat:".$value."\r\n";
             }
             $txt.="Preu: ".$json['preu'];
-            echo $txt;
             $txt = wordwrap($txt,70);
             mail($to,$subject,$txt);      
         }
