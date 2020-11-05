@@ -1,1 +1,0 @@
-{"productes":{"Torrades":"3"},"preu":"2.70","Dades":{"Nom":"Àlex","Telefon":"999999999","Email":"a18aleperfer@inspedralbes.cat","Intolerancias":"sdasd","Extras":"sadasdas"},"Estat":"Per preparar"}
