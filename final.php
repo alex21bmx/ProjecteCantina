@@ -11,7 +11,11 @@
     </header>
     <div id="content">
       <h1>Compra finalitzada</h1>
-      <?php 
+      <div id="divFinal">
+      </div>
+      <script src="js/final.js"></script>
+      <?php
+ 
         if (!isset($_COOKIE["comanda"])){
           $hora = date("G");
           $cooldown = 23-intval($hora);
