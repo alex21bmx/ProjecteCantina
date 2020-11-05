@@ -395,7 +395,7 @@ th{
   
     .err {
       color: #ffffff;
-      font-family: 'Nunito Sans', sans-serif;
+      font-family: Open-sans;
       font-size: 11rem;
       position:absolute;
       right:  50%;
@@ -413,7 +413,7 @@ th{
   
    .err2 {
       color: #ffffff;
-      font-family: 'Nunito Sans', sans-serif;
+      font-family: Open-sans;
       font-size: 11rem;
       position:absolute;
       left: 75%;
@@ -422,7 +422,7 @@ th{
   
   .msgerror {
       text-align: center;
-      font-family: 'Nunito Sans', sans-serif;
+      font-family: Open-sans;
       font-size: 1.6rem;
       position:absolute;
       left: 16%;
