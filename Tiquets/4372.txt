@@ -1,0 +1,1 @@
+{"productes":{"Bocadillo Fuet":"2","Torrades":"5","Café":"4"},"preu":"14.70","Dades":{"Nom":"Ruben","Telefon":"722177709","Email":"a18rubonclop@inspedralbes.cat","Intolerancias":"No tolero treballar amb lalex","Extras":"hola buenas tarda"},"Estat":"Per preparar"}
