@@ -5,12 +5,12 @@ function stringComanda(){
     let preu = json["preu"];
     let codiFinal = "<form>"
     for (let [key, value] of Object.entries(productes)) {
-        codiFinal+="<tr>";
-        codiFinal+=("<td>"+key+" </td>");
-        codiFinal+="<td>Quantitat: "+value+"</td>";
+        codiFinal+='<tr class="trComanda">';
+        codiFinal+=("<td>"+key+" -</td>");
+        codiFinal+="<td> "+value+" unitats</td>";
         codiFinal+="</tr><br>";
     }
-    codiFinal+=("<tr><td>Preu: </td><td>"+preu+"</td></tr></form>");
+    codiFinal+=('<tr class="trComanda"><td>Preu: </td><td>'+preu+'€</td></tr></form>');
     codiFinal
     return codiFinal;
 }

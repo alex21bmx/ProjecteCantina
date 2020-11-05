@@ -457,7 +457,7 @@ form label{
 
 form input[type="text"],
 form input[type="email"]{
-	width:180px;
+	width:350px;
 	padding:3px 10px;
 	border:1px solid #f6f6f6;
 	border-radius:3px;
@@ -492,3 +492,25 @@ textarea{
 	resize:none;
 	display:block;
 }
+
+/*Comanda*/
+#h1Comanda{
+  text-align: center;
+  margin-bottom: 100px;
+}
+#h3Comanda{
+  text-align: center;
+  font-size: 30px;
+}
+#ComandaPasada{
+  text-align: center;
+  font-size: 20px;
+}
+.label{
+  text-align: left;
+  margin-right: 60px;
+}
+#formComanda{
+  display: inline-block;
+}
+

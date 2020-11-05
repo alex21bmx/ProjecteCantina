@@ -16,34 +16,35 @@
       <?php require_once("imports/header.php"); ?>
     </header>
     <div id="content">
-      <h1>Tramitació comanda</h1>
+      <h1 id="h1Comanda">Tramitació comanda</h1>
       <div class="columna">
+        <h3 id="h3Comanda">Comanda</h3>
         <div id="ComandaPasada">
         </div>  
       </div>
       <div class="columna">
-        <form action="final.php" method="post" name="signup" id="signup">
+        <form id="formComanda" action="final.php" method="post" name="signup" id="signup">
                 <fieldset>
-                    <legend>Formulari Comanda</legend>
+                    <legend>Dades adicionals</legend>
                     <div>
                         <label for="name" class="label">Nom</label>
-                        <input name="name" type="text" id="name" size="15">
+                        <input class="addicional" name="name" type="text" id="name" size="15">
                     </div>
                     <div>
                         <label for="telefon" class="label">Telefon</label>
-                        <input name="telefon" type="text" id="telefon" size="15">
+                        <input class="addicional" name="telefon" type="text" id="telefon" size="15">
                     </div>
                     <div>
                         <label for="email" class="label">Email</label>
-                        <input name="email" type="text" id="email" size="15">
+                        <input class="addicional" name="email" type="text" id="email" size="15">
                     </div>
                     <div>
-                        <label for="extres">Intoleràncias</label>
-                        <input class="addicional" rows="3" name="intolerancies" id="intolerancies" for="intolerancies" placeholder="Descriu les teves intoleràncies" ></input>
+                        <label for="extres" class="label">Intoleràncias</label>
+                        <input class="addicional" rows="3" name="intolerancies" type="text" id="intolerancies" for="intolerancies" placeholder="Descriu les teves intoleràncies" ></input>
                     </div>
                     <div>
-                        <label for="extres">Extres</label>
-                        <input class="addicional" name="extres" for="extres" id="extres" placeholder="Descriu els extres pels entrepans" ></input>
+                        <label for="extres" class="label">Extres</label>
+                        <input class="addicional" name="extres" for="extres" type="text" id="extres" placeholder="Descriu els extres pels entrepans" ></input>
                     </div>
 
                     <input id="comanda" type="hidden" name= "comanda" value="">  
