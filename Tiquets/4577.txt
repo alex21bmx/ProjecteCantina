@@ -1,0 +1,1 @@
+{"productes":{"Bocadillo Chistorra":"3","Donut":"3","Suc de taronja":"4"},"preu":"17.40","Dades":{"Nom":"Ruben","Telefon":"722177709","Email":"a18rubonclop@inspedralbes.cat","Intolerancias":"aqwerewt","Extras":"asfasf"},"Estat":"Per preparar"}

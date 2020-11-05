@@ -33,13 +33,15 @@
                 } 
             ?>
             <?php
+                //CONSTANT COLUMNES
+                $columnes = 3;
                 $dir = new RecursiveDirectoryIterator('../Tiquets/');
-                $contador = 1;
-                echo '<table><tr>';
+                $contador = 0;
+                echo '<table>';
                 foreach ($dir as $fileinfo) {
                     
-                    if(strlen($fileinfo->getFilename())>4){  
-                        if(($contador-1)%3==0){
+                    if(strlen($fileinfo->getFilename())>4){//0,3,6,9,12  
+                        if($contador%$columnes==0){
                             echo '<tr>';
                         }
                         $myfile = fopen("../Tiquets/".$fileinfo->getFilename(), "r");
@@ -59,6 +61,8 @@
                             echo '<li>Nom: '.$json['Dades']['Nom'].'</li>';
                             echo '<li>Telèfon: '.$json['Dades']['Telefon'].'</li>';
                             echo '<li>Correu: '.$json['Dades']['Email'].'</li>';
+                            echo '<li>Intoleràncies: '.$json['Dades']['Intolerancias'].'</li>';
+                            echo '<li>Extres: '.$json['Dades']['Extras'].'</li>';
                             echo '</ul>';
                             echo '<label><b>Preu: </b>'.$json['preu'].'€</label><br>';
                             echo '<label><b>Estat: </b>'.$json['Estat'].'</label>';
@@ -67,13 +71,12 @@
                             echo '<input type="submit" name="realitzat" value="Marca com a Finalitzat"/> ';
                             echo '</form>';
                             echo "</td>";
+                            $contador++;
                         }
                         fclose($myfile);    
-                        if($contador%3==0){
+                        if($contador%$columnes==0){
                             echo '</tr>';
-                        }  
-                        $contador++;     
-                        
+                        }      
                     }
                 }
                 if(!($contador-1)%3==0){
