@@ -4,13 +4,13 @@
         <input type="button" value="-->" id="btn2" onClick="endevant()">
     </div>
     <div id="about">
-        <table>
+        <table id="taulaFooter">
             <tr id="FilaApartat">
-                <td class="Apartat"><a href="avislegal.php">Avís Legal</a></td>
-                <td class="Apartat">Sobre Nosaltres</td>
-                <td class="Apartat">Contacte</td>
-                <td class="Apartat">Horaris</td>
-                <td class="Apartat">Ubicació</td>
+                <th class="Apartat"><a href="avislegal.php">Avís Legal</a></th>
+                <th class="Apartat">Sobre Nosaltres</th>
+                <th class="Apartat">Contacte</th>
+                <th class="Apartat">Horaris</th>
+                <th class="Apartat">Ubicació</th>
             </tr>
             <tr id="FilaContingut">
                 <td class="Contingut"></td>

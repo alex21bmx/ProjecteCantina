@@ -42,7 +42,7 @@ body {
     border-radius: 100px;
     position: fixed;
     left: 0;
-    bottom: 100px;
+    bottom: 17%;
     width: 200px;
     height:40px;
     outline: none;
@@ -58,15 +58,17 @@ body {
     border-radius: 100px;
     position: fixed;
     right: 0;
-    bottom: 100px;
+    bottom: 17%;
     width: 200px;
     height:40px;
     outline: none;
     margin-right: 50px;
 }
+#taulaFooter{
+    width: 100%;
+}
 #about{
     bottom: 0;
-    width: 100%;
     text-align: center;
     background-color:  #52d4ff;
     color: black;
@@ -74,8 +76,6 @@ body {
 .Apartat{
     font-size: 15px;
     padding-top: 20px;
-    padding-right: 100px;
-    padding-left: 100px;
     margin-top: 10px;
 }
 .Contingut{
@@ -108,7 +108,7 @@ body {
 }
 .aHeader{
     text-decoration: none;
-    color: darkblue;
+    color: black;
 }
 
 header{
