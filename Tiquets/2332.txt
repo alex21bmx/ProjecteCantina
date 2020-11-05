@@ -1,1 +1,0 @@
-{"productes":{"Bocadillo Fuet":"2","Pancakes":"3","Te":"4"},"preu":"13.50","Dades":{"Nom":"Ruben","Telefon":"722177709","Email":"a18rubonclop@inspedralbes.cat","Intolerancias":"ewtgrtyuoity","Extras":"rewsdrtyutkrt"},"Estat":"Per preparar"}
