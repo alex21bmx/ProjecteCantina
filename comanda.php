@@ -37,7 +37,17 @@
                         <label for="email" class="label">Email</label>
                         <input name="email" type="text" id="email" size="15">
                     </div>
-                    <input id="comanda" type="hidden" name= "comanda" value="">                  
+                    <div>
+                        <label for="extres">Intoleràncias</label>
+                        <textarea name="intolerancies" id="intolerancies" for="intolerancies" placeholder="Descriu les teves intoleràncies" maxlength="300"></textarea>
+                    </div>
+                    <div>
+                        <label for="extres">Extres</label>
+                        <textarea name="extres" for="extres" id="extres" placeholder="Descriu els extres pels entrepans" maxlength="300"></textarea>
+                    </div>
+
+                    <input id="comanda" type="hidden" name= "comanda" value="">  
+
 
                 </fieldset>
         </form>
