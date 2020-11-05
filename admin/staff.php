@@ -36,7 +36,7 @@
             <?php
                 $dir = new RecursiveDirectoryIterator('../Tiquets/');
                 $contador = 1;
-                echo '<table>';
+                echo '<table><tr>';
                 foreach ($dir as $fileinfo) {
                     
                     if(strlen($fileinfo->getFilename())>4){  
