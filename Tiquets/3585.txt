@@ -1,1 +1,0 @@
-{"productes":{"Amanida":"4","Entrecot":"6","Shusi":"4"},"preu":"72.20","Dades":{"Nom":"Àlex Pérez Fernández","Telefon":"630750680","Email":"alex21bmx@inspedralbes.cat","Intolerancias":"la alba","Extras":"hola"},"Estat":"Per preparar"}

@@ -1,1 +1,0 @@
-{"productes":{"Amanida":"4"},"preu":"10.80","Dades":{"Nom":"\u00c0lex P\u00e9rez Fern\u00e1ndez","Telefon":"630750680","Email":"alex21bmx@inspedralbes.cat","Intolerancias":"Asdsad","Extras":"asdasdas"},"Estat":"Fet"}

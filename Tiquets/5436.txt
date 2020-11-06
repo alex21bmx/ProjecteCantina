@@ -1,1 +1,0 @@
-{"productes":{"Entrecot":"4"},"preu":"6.80","Dades":{"Nom":"Àlex Pérez Fernández","Telefon":"630750680","Email":"alex21bmx@inspedralbes.cat","Intolerancias":"dfsdf","Extras":"sdfsdfs"},"Estat":"Per preparar"}

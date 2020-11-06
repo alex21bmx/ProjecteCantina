@@ -161,7 +161,7 @@
                 <img class = "menuImg" src = "./src/img/menu_entrecot.jpg">
                 <div>
                   <text class="nombre">Entrecot</text>          
-                  <text class="precio">1.70€</text>
+                  <text class="precio">11.70€</text>
                   </br>
                   <button class="botonMenos">-</button>
                   <text class = "cantidad">0</text>

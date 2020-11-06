@@ -1,1 +1,0 @@
-{"productes":{"Bocadillo Fuet":"7","Bocadillo Queso":"6","Pancakes":"4"},"preu":"26.50","Dades":{"Nom":"\u00c0lex P\u00e9rez Fern\u00e1ndez","Telefon":"630750680","Email":"a18aleperfer@inspedralbes.cat","Intolerancias":"en martin","Extras":"si"},"Estat":"Fet"}
