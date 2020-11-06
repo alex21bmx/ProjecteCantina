@@ -25,7 +25,15 @@ Situate en la carpeta de proyectos de tu servidor apache y ejecuta el comando:
 
 - git clone https://github.com/alex21bmx/ProjecteCantina.git
 - Asegurate que el servidor apache este encendido
-- Accede desde locoalhost/ProjecteCantina/landing.php
+- Accede desde localhost/ProjecteCantina/landing.php
+
+### Notas
+
+Assegurate de modificar la Directiva AuthUserFile con tu ruta absoluta al fichero .htpasswd
+
+Credenciales de staff: 
+- Usuario: ausias 
+- Contraseña: ausias
 
 ### Tecnologias
 
