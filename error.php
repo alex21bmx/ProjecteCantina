@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Error</title>
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600;900&display=swap" rel="stylesheet">
-    
+    <link rel="stylesheet" href="css/estils.css">
     <script src="https://kit.fontawesome.com/4b9ba14b0f.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
-      <?php require_once("imports/header.php"); ?>
+      <?php require_once("imports/headerError.php"); ?>
     </header>
     <div id="content">
       <div class="bodyerror">
