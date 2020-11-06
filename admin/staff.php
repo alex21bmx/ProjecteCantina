@@ -27,7 +27,7 @@
                     $subject ="La teva comanda";
                     $txt = "Estimat client, la seva comanda ja està llesta per recollir\r\nComanda:\r\n";
                     foreach ($json['productes'] as $key => $value) {
-                        $txt.="-".$key." quantitat:".$value."\r\n";
+                        $txt.="\r\t-".$key." quantitat:".$value."\r\n";
                     }
                     $txt.="Preu: ".$json['preu'];
                     $txt = wordwrap($txt,70);

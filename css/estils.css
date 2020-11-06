@@ -20,7 +20,6 @@ body {
 }
 #content {
     flex: 1;
-    padding: 20px;
 }
 
 /*Footer*/
@@ -383,63 +382,52 @@ th{
 /*error style */
 .bodyerror {
     background-color: #a8e9ff;
+    margin: 0;
   }
   
   .mainboxerror {
     background-color: #a8e9ff;
     margin: auto;
-    height: 600px;
     width: 600px;
-    position: relative;
   }
   
     .err {
       color: #ffffff;
       font-family: Open-sans;
       font-size: 11rem;
-      position:absolute;
       right:  50%;
-      top: 8%;
+      vertical-align: top;
     }
-  
+  .errorText{
+    margin-top: 40%;
+  }
   .far {
-    position: absolute;
     font-size: 8.5rem;
-    left: 50%;
-    top: 15%;
     color: #ffffff;
   }
-
-  
-   .err2 {
-      color: #ffffff;
-      font-family: Open-sans;
-      font-size: 11rem;
-      position:absolute;
-      left: 75%;
-      top: 8%;
-    }
-  
   .msgerror {
       text-align: center;
       font-family: Open-sans;
       font-size: 1.6rem;
-      position:absolute;
-      left: 16%;
       top: 45%;
-      width: 75%;
+      margin: 0;
     }
   
   a {
     text-decoration: none;
     color: white;
   }
+  #pError{
+    text-align: center;
+    padding-top: 100px;
+    vertical-align: top;
+  }
   
   a:hover {
     text-decoration: underline;
   }
-  /*css del form  */
-  *{box-sizing:border-box;}
+/*css del form  */
+*{box-sizing:border-box;}
 
 .formstyle{
 	width:300px;

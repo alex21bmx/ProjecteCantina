@@ -1,0 +1,1 @@
+{"productes":{"Bocadillo Queso":"3"},"preu":"5.10","Dades":{"Nom":"asda","Telefon":"999999999","Email":"a18aleperfer@inspedralbes.cat","Intolerancias":"asdasd","Extras":"dsasdasdas"},"Estat":"Per preparar"}

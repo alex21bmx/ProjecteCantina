@@ -37,7 +37,7 @@
             $json = json_decode($_POST["comanda"],true);
             $txt = "Estimat client, la seva comanda s'ha tramitat correctament\r\nComanda:\r\n";
             foreach ($json['productes'] as $key => $value) {
-              $txt.="-".$key." quantitat:".$value."\r\n";
+              $txt.="\r\t-".$key." quantitat:".$value."\r\n";
             }
             $txt.="Preu: ".$json['preu'];
             $txt = wordwrap($txt,70);

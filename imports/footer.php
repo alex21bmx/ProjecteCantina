@@ -21,7 +21,7 @@
                 <td class="Contingut"><p>Correu: <br>
                                      Rubén: a18rubonclop@inspedralbes.cat <br>
                                       Ángel: a18anggarvic@gmail.com <br>
-                                       Àlex:a18aleperfer@inspedralbes.cat</p></td>
+                                       Àlex: a18aleperfer@inspedralbes.cat</p></td>
 
                 <td class="Contingut"><p>De Dilluns a Divendres <br>
                                         7:00-19:00</p></td>

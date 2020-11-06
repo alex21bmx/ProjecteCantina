@@ -15,13 +15,10 @@
     <div id="content">
       <div class="bodyerror">
         <div class="mainboxerror">
-          <div class="err">ERR</div>        
-          <i class="far fa-question-circle fa-spin "></i>
-          <div class="err2">R</div>
+          <div class="err"><label class="errorText">ERR</label><i class="far fa-question-circle fa-spin "></i><label class="errorText">R</label></div>        
         </div>
-        <div class="msgerror">Ja has fet una comanda avui<p>torna a la pàgina <a href="landing.php">principal</a> .Esperem que tornis demà, et desitgem un bon dia.</p></div>
-
       </div>
+      <div class="msgerror"><p id="pError">Ja has fet una comanda avui, torna a la pàgina <a href="landing.php">principal</a>.<br>Esperem que tornis demà, et desitgem un bon dia.</p></div>
     </div>
     <footer>
       <?php require_once("imports/footer.php"); ?>
