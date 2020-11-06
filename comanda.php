@@ -23,7 +23,7 @@
         </div>  
       </div>
       <div class="columna">
-        <form id="formComanda" action="final.php" method="post" name="signup" id="signup">
+        <form id="formComanda" action="final.php" method="post" name="signup" >
                 <fieldset>
                     <legend>Dades adicionals</legend>
                     <div>

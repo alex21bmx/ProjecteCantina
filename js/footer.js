@@ -58,7 +58,7 @@ function comrpobaCookie() {
 function finalDeComanda() {
     if (verificaDades() && !comrpobaCookie()) {
         actualitzaDades();
-        document.getElementById("signup").submit();
+        document.getElementById("formComanda").submit();
     } else {
         Swal.fire(
             'Error en els camps del formulari',
