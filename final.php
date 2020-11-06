@@ -11,7 +11,7 @@
     </header>
     <div id="content">
 
-      <h1>Compra finalitzada</h1>
+      <h1 id ="h1Final">Compra finalitzada</h1>
       <div id="divFinal">
       </div>
       <script src="js/final.js"></script>
@@ -24,7 +24,6 @@
 
           setcookie("comanda","True",time()+$cooldown);
           $json = $_POST["comanda"];  
-          $json['Dades']['Data'] = date("j-m-Y");        
           do {
             $random = rand(0, 5000);
             $filename = "./Tiquets/".$random.".txt";

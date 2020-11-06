@@ -29,11 +29,15 @@ Situate en la carpeta de proyectos de tu servidor apache y ejecuta el comando:
 
 ### Notas
 
-Assegurate de modificar la Directiva AuthUserFile con tu ruta absoluta al fichero .htpasswd
+Asegurate de modificar la Directiva AuthUserFile con tu ruta absoluta al fichero .htpasswd
 
 Credenciales de staff: 
 - Usuario: ausias 
 - Contraseña: ausias
+
+Importante modificar los permisos de la carpeta Tiquets. 
+Situate en la carpeta de Tiquets y ejecuta el siguiente comando
+- chmod -R 777 ./
 
 ### Tecnologias
 

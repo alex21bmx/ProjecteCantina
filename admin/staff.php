@@ -54,7 +54,6 @@
                             echo '<div class="outer">';
                             echo '<div class="contingutStaff">';
                             echo '<h3>Tiquet nº'.substr($fileinfo->getFilename(), 0, 4).'</h3>';
-                            echo '<label>Data: '.$json['Dades']['Data'].'<label>;
                             echo '<label><b>Productes</b></label>';
                             echo '<ul>';
                             foreach ($json['productes'] as $key => $value) {
