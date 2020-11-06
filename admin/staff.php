@@ -8,7 +8,7 @@
 </head>
 <body>    
     <header>
-      <?php require_once("headerStaff.php"); ?>
+      <?php require_once("../imports/headerStaff.php"); ?>
     </header>
     <div id="content">
         <h1 id="titolStaff">Llista de comandes</h1>        
@@ -98,7 +98,7 @@
             ?>
     </div>
     <footer>
-      <?php require_once("footer.php"); ?>
+      <?php require_once("../imports/footer.php"); ?>
     </footer> 
     <script src="../js/footer.js"></script>   
 </body>

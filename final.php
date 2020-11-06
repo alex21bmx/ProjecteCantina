@@ -10,8 +10,9 @@
       <?php require_once("imports/header.php"); ?>
     </header>
     <div id="content">
-      <h1>Compra finalitzada</h1>
-      <div id="divFinal">
+      <div  id="generalFinal">
+        <h1 id="h1Final">Compra finalitzada</h1>
+        <div id="divFinal"></div>
       </div>
       <script src="js/final.js"></script>
       <?php
