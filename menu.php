@@ -70,6 +70,7 @@
         
        
       ?>
+      <!--
         <div id = "pati">
           <table class = "tablaMenu">
             <tr>
@@ -295,6 +296,7 @@
           </table>
         </div>
       </div>
+        -->
     </div>   
     <footer id="footer">
         <?php require_once("imports/footer.php"); ?>
