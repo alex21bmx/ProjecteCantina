@@ -1,5 +1,4 @@
 window.onload = function(){
-    menuChooser();   
     addListeners();   
 }
 
@@ -21,9 +20,11 @@ function menuChooser(){
 
     if(hora < 11 || (hora == 11 && minutos < 31)){        
         document.getElementById("pati").style.display = "initial";      
+        return 'pati';
     }
     else{
         document.getElementById("migdia").style.display = "initial";        
+        return 'migdia';
     }  
 }
 function botonMas(i){   

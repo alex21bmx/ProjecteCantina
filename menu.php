@@ -28,6 +28,48 @@
         </div>
       </div>    
       <div class = "columna">
+      <?php
+        $hora =  date('H');  
+        $minutos = date('m');      
+        if($hora < 11 || ($hora == 11 && $minutos < 31)){
+          $menu = 'pati';
+        }else{
+          $menu = 'mediodia';
+        }
+
+        $inp = file_get_contents('./admin/menu.json');
+        $tempArray = json_decode($inp);
+        
+        
+        echo ('
+          <div id="graella">
+          
+          ');       
+
+        
+        for ($i=0; $i < sizeof($tempArray); $i++) { 
+          if($tempArray[$i]->torn == $menu){          
+            echo('
+              <ul class="tdMenu">
+                <img class = "menuImg" src = "' . $tempArray[$i]->rutaMenu . '">
+                <div>
+                  <text class="nombre">'. $tempArray[$i]->nom . '</text>        
+                  <text class="precio">'.$tempArray[$i]->preu.'</text>
+                  </br>
+                  <button class="botonMenos">-</button>
+                  <text class = "cantidad">0</text>
+                  <button class="botonMas">+</button>          
+                </div>
+              </ul>
+            '); 
+          }                   
+        }
+        
+        echo('</div>');
+          
+        
+       
+      ?>
         <div id = "pati">
           <table class = "tablaMenu">
             <tr>
