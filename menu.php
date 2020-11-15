@@ -34,7 +34,7 @@
         if($hora < 11 || ($hora == 11 && $minutos < 31)){
           $menu = 'pati';
         }else{
-          $menu = 'mediodia';
+          $menu = 'migdia';
         }
 
         $inp = file_get_contents('./admin/menu.json');
