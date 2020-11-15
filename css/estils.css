@@ -94,6 +94,12 @@ body {
   width: 150px;
   height: 30px;
   outline: none;
+  box-shadow: 3px 3px 5px 0px;
+  opacity: 1;
+}
+.btnAfegirProducte:hover{
+  opacity: 0.75;
+  box-shadow: 7px 7px 5px 0px;
 }
 
 .btnModificarProducte {
@@ -106,6 +112,12 @@ body {
   width: 300px;
   height: 30px;
   outline: none;
+  box-shadow: 3px 3px 5px 0px;
+  opacity: 1;
+}
+.btnModificarProducte:hover{
+  opacity: 0.75;
+  box-shadow: 7px 7px 5px 0px;
 }
 
 
@@ -146,6 +158,12 @@ body {
   height: 40px;
   outline: none;
   margin-left: 50px;
+  box-shadow: 3px 3px 5px 0px;
+  opacity: 1;
+}
+#btn1:hover{
+  box-shadow: 7px 7px 5px 0px;
+  opacity: 0.75;
 }
 
 #btn2 {
@@ -163,6 +181,12 @@ body {
   height: 40px;
   outline: none;
   margin-right: 50px;
+  box-shadow: 3px 3px 5px 0px;
+  opacity: 1;
+}
+#btn2:hover{
+  box-shadow: 7px 7px 5px 0px;
+  opacity: 0.75;
 }
 
 #taulaFooter {
@@ -249,6 +273,12 @@ header {
   width: 200px;
   background-color: #52d4ff;
   vertical-align: bottom;
+  box-shadow: 3px 3px 5px 0px;
+  opacity: 1;
+}
+.btnStaff:hover{
+  box-shadow: 7px 7px 5px 0px;
+  opacity: 0.75;
 }
 
 .inner {
@@ -271,11 +301,16 @@ header {
 }
 
 .tdStaff {
-  border: 2px solid black;
   border-radius: 20px;
   padding: 0;
   vertical-align: top;
   position: relative;
+  opacity: 1;
+  box-shadow: 3px 3px 5px 0px;
+}
+.tdStaff:hover{
+  opacity: 0.75;
+  box-shadow: 7px 7px 5px 0px;
 }
 
 .contingutStaff {
@@ -478,6 +513,12 @@ img {
   height: 30px;
   width: 60px;
   margin-top: 40px;
+  box-shadow: 3px 3px 5px 0px;
+  opacity: 1;
+}
+#vaciar:hover{
+  opacity: 0.75;
+  box-shadow: 7px 7px 5px 0px;
 }
 
 .titolMenu {
@@ -492,6 +533,12 @@ img {
   height: 25px;
   border-radius: 50px;
   outline: none;
+  box-shadow: 3px 3px 5px 0px;
+  outline: 1;
+}
+.botonMas:hover{
+  box-shadow: 7px 7px 5px 0px;
+  opacity: 0.75;
 }
 
 .botonMenos {
@@ -501,6 +548,12 @@ img {
   border: none;
   outline: none;
   border-radius: 100px;
+  box-shadow: 3px 3px 5px 0px;
+  outline: 1;
+}
+.botonMenos:hover{
+  box-shadow: 7px 7px 5px 0px;
+  opacity: 0.75;
 }
 
 .menuImg {
