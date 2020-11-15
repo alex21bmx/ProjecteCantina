@@ -21,6 +21,9 @@
         <h3 id="h3Comanda">Comanda</h3>
         <div id="ComandaPasada">
         </div>  
+        <?php
+          echo($_POST['comanda']);
+        ?>
       </div>
       <div class="columna">
         <form id="formComanda" action="final.php" method="post" name="signup" >

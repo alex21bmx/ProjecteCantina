@@ -75,8 +75,11 @@
         echo('</div>');  
        
       ?>
-      
-    </div>   
+      </div>
+    </div>
+    <form id="formMenu" action="comanda.php" method="post" >  
+        <input id="menuItems" name="comanda" type="hidden" value="">
+    </form>   
     <footer id="footer">
         <?php require_once("imports/footer.php"); ?>
     </footer> 

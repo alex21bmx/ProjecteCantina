@@ -89,6 +89,12 @@ function enviaComanda() {
         mapPedido["preu"] = document.getElementById("total").textContent;
 
         localStorage.setItem("comanda", JSON.stringify(mapPedido));
+
+        //Cosas de la mejora
+        document.getElementById("menuItems").setAttribute("value",JSON.stringify(mapProductes)); 
+        console.log(document.getElementById("menuItems").getAttribute("value"));
+        document.getElementById("formMenu").submit
+
         window.location.href = "comanda.php";
     }
 }
