@@ -1,4 +1,5 @@
-[{"nom":"Amanida","torn":"migdia","preu":"2.70","ruta":"..\/src\/menuFotos\/Amanida.jpg","rutaMenu":".\/src\/menuFotos\/Amanida.jpg"},
+[
+    {"nom":"Amanida","torn":"migdia","preu":"2.70","ruta":"..\/src\/menuFotos\/Amanida.jpg","rutaMenu":".\/src\/menuFotos\/Amanida.jpg"},
     {"nom":"Entrecot","torn":"migdia","preu":"11.70","ruta":"..\/src\/menuFotos\/Entrecot.jpg","rutaMenu":".\/src\/menuFotos\/Entrecot.jpg"},
     {"nom":"Natillas","torn":"migdia","preu":"1.50","ruta":"..\/src\/menuFotos\/Natillas.jpg","rutaMenu":".\/src\/menuFotos\/Natillas.jpg"},
     {"nom":"Tallarines","torn":"migdia","preu":"7.50","ruta":"..\/src\/menuFotos\/Tallarines.jpg","rutaMenu":".\/src\/menuFotos\/Tallarines.jpg"},
@@ -8,7 +9,7 @@
     {"nom":"Truita de granja","torn":"migdia","preu":"7.90","ruta":"..\/src\/menuFotos\/.jpg","rutaMenu":".\/src\/menuFotos\/.jpg"},
     {"nom":"Fruita","torn":"pati","preu":"0.65","ruta":"..\/src\/menuFotos\/Fruita.jpg","rutaMenu":".\/src\/menuFotos\/Fruita.jpg"},
     {"nom":"Bocadillo Fuet","torn":"pati","preu":"1.70","ruta":"..\/src\/menuFotos\/menu_bocadillo_fuet.jpg","rutaMenu":".\/src\/menuFotos\/menu_bocadillo_fuet.jpg"},
-    {"nom":"Bocadillo Queso","torn":"pati","preu":"1.70","ruta":"..\/src\/menuFotos\/menu_bocadillo_queso.jpg","rutaMenu":".\/src\/menuFotos\/menu_bocadillo_queso.jpg"}},
+    {"nom":"Bocadillo Queso","torn":"pati","preu":"1.70","ruta":"..\/src\/menuFotos\/menu_bocadillo_queso.jpg","rutaMenu":".\/src\/menuFotos\/menu_bocadillo_queso.jpg"},
     {"nom":"Bocadillo Chistorra","torn":"pati","preu":"2.50","ruta":"..\/src\/menuFotos\/menu_bocadillo_chistorra.jpg","rutaMenu":".\/src\/menuFotos\/menu_bocadillo_chistorra.jpg"},
     {"nom":"Torrades","torn":"pati","preu":"0.90","ruta":"..\/src\/menuFotos\/esmorzar_torrada.jpg","rutaMenu":".\/src\/menuFotos\/esmorzar_torrada.jpg"},
     {"nom":"Pancakes","torn":"pati","preu":"1.10","ruta":"..\/src\/menuFotos\/esmorzar_pancakes.jpg","rutaMenu":".\/src\/menuFotos\/esmorzar_pancakes.jpg"},
